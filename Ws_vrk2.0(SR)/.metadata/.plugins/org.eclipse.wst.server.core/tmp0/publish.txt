@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Wed Feb 22 22:07:48 IST 2023
+org.eclipse.jst.jee.server\:BootRestProj12-ActorService-API=/home/vvkvrk/Downloads/apache-tomcat-10.0.27/wtpwebapps/BootRestProj12-ActorService-API
+org.eclipse.jst.jee.server\:/binary\:/home/vvkvrk/.m2/repository/org/springframework/spring-web/6.0.3/spring-web-6.0.3.jar=/home/vvkvrk/Downloads/apache-tomcat-10.0.27/wtpwebapps/BootRestProj14-ActorService-API-Post-JsonBody/WEB-INF/lib/spring-web-6.0.3.jar
+org.eclipse.jst.jee.server\:BootRestProj14-ActorService-API-Post-JsonBody=/home/vvkvrk/Downloads/apache-tomcat-10.0.27/wtpwebapps/BootRestProj14-ActorService-API-Post-JsonBody
+org.eclipse.jst.jee.server\:BootRestProj16-MiniProject-ControllerAdvice=/home/vvkvrk/Downloads/apache-tomcat-10.0.27/wtpwebapps/BootRestProj16-MiniProject-ControllerAdvice

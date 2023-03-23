@@ -1,0 +1,7 @@
+package com.rk.repository;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface PlayerInfoRepository extends MongoRepository<com.rk.document.PlayerInfo, java.lang.IntegerD> {
+
+}

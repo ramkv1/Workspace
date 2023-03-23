@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="BootMs-proj07-EurekaServer"/>
+<aop-project name="BootMs-proj17-MiniProject-IPLPlayerService-ConsumerMs"/>
+<aop-project name="BootMs-proj07-StudentSevice"/>
+<aop-project name="BootMs-proj03-ShoppingServiceMS-ConsumerMS-LBC"/>
+<aop-project name="BootMs-proj17-NetflixZuulServer"/>
+<aop-project name="BootMs-proj17-MiniProject-AdminServer"/>
+<aop-project name="BootMs-proj18-MiniProject-IPLTeamService-ProducerMS1"/>
+<aop-project name="BootMs-proj17-MiniProject-ConfigServer"/>
+<aop-project name="BootMs-proj18-MiniProject-IPLPlayerService-ConsumerMS1"/>
+<aop-project name="BootMs-proj07-EmpSevice"/>
+<aop-project name="BootMs-proj07-ConfigServer-NativeFile"/>
+<aop-project name="BootMs-proj17-MiniProject-IPLTeamService-ProducerMs"/>
+<aop-project name="BootMs-proj17-MiniProject-EurekaServer"/>
+</aop-reference-model>

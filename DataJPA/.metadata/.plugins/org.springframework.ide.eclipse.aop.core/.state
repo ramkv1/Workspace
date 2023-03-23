@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="Boot-DataMongoDB-Proj06-QueryMethods"/>
+<aop-project name="Boot-DataMongoDB-Proj03-SpecialTypes"/>
+</aop-reference-model>

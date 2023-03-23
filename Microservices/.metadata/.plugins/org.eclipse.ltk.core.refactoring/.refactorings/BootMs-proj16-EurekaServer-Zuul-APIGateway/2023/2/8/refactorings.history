@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BootMsProj16EurekaServerZuulAPIGatewayApplication.java&apos; to &apos;static&apos;&#x0A;- Original project: &apos;BootMs-proj16-EurekaServer-Zuul-APIGateway&apos;&#x0A;- Destination element: &apos;static&apos;&#x0A;- Original element: &apos;com.rk.BootMsProj16EurekaServerZuulAPIGatewayApplication.java&apos;" description="Copy compilation unit" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.rk{BootMsProj16EurekaServerZuulAPIGatewayApplication.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1677304353910" target="/BootMs-proj16-BillingServiceMS-Zuul1/src/main/resources/static" units="1" version="1.0"/>
+</session>

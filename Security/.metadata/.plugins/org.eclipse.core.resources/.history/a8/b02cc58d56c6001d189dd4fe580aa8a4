@@ -1,0 +1,5 @@
+package com.rk.producer;
+
+public class MessageProducer {
+
+}

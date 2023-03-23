@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;App_hi_IN.properties&apos; to &apos;App_hi_IN.properties&apos;&#x0A;- Original project: &apos;I18n&apos;&#x0A;- Destination element: &apos;App_hi_IN.properties&apos;&#x0A;- Original element: &apos;App_hi_IN.properties&apos;" description="Copy file" element1="src/main/java/com/rk/common/App_hi_IN.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1669875615670" target="/I18n/src/main/java/com/rk/common/App_hi_IN.properties" units="0" version="1.0"/>
+</session>

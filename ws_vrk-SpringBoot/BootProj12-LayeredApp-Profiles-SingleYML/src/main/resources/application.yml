@@ -1,0 +1,83 @@
+#Activate the profile
+spring:
+  profiles:
+    active: dev
+ 
+ 
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+ 
+  datasource:
+     driver-class-name: com.mysql.cj.jdbc.Driver
+     url: jdbc:mysql://localhost:3306/mysqlDB
+     username: ramkv
+     password: chatGPT2023
+     dbcp2:
+        max-total: 100
+        initial-size: 10
+        max-conn-lifetime-millis: 100000
+           
+             
+#Specify the DataSource type
+     type: org.apache.commons.dbcp2.BasicDataSource
+         
+         
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+   
+  datasource:
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+      url: jdbc:oracle:thin:@localhost:1521:xe
+      username: system
+      password: tiger
+      oracle:
+         max-pool-size: 100
+         min-pool-size: 10
+         time-to-time-connection-timeout: 100000
+         
+         
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+   
+  datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/mysqlDB
+      username: ramkv
+      password: chatGPT2023
+      c3P0:
+        minSize: 10
+        maxSize: 100
+        
+           
+             
+#Specify the DataSource type
+      type: com.mchange.v2.c3p0.ComboPooledDataSource
+        
+        
+---
+spring:
+  config:
+    activate:
+      on-profile: uat
+   
+  datasource:
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+      url: jdbc:oracle:thin:@localhost:1521:xe
+      username: system
+      password: tiger
+      oracle:
+         max-pool-size: 100
+         min-pool-size: 10
+           
+             
+#Specify the DataSource type
+      type: oracle.ucp.jdbc.PoolDataSourceImpl

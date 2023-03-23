@@ -1,0 +1,24 @@
+package com.rk.Repository;
+
+import java.util.List;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.data.mongodb.repository.Query;
+
+import com.rk.Document.Employee;
+
+public interface IEmployeeRepository extends MongoRepository<Employee, String>{
+	
+	@Query(value = "{eadd:?0}",fields = "{id:0,eno:1,ename:1}")
+	public List<Object[]> getEmpsDataByAddrs(String addrs);
+	
+	//@Query(value = "{eadd:?0}",fields = "{}")
+	@Query(value = "{eadd:?0}")
+	public List<Employee> getEmpsFullDataByAddrs(String addrs);
+	
+	@Query(value = "{eadd:?1,salary:?0}",fields = "{ename:1,eadd:1,salary:1}")
+	public List<Object[]> getEmpsDataBySalaryAndAddrs(double salary,String addrs);
+
+	@Query(value = "{salary{$gte:?0},salary{$lte:?1}}",fields = "{ename:1,eadd:1,salary:1}")
+	public List<Object> getEmpsDataBySalaryRange(Double start,double end);
+}

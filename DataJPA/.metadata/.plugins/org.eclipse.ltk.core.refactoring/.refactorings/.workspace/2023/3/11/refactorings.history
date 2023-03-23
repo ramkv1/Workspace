@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Boot-DataMongoDB-Proj01-MongoRepository-OurIdProperties&apos; to &apos;Boot-DataMongoDB-Proj02-MongoRepository-OurIdProperties&apos;" description="Rename resource &apos;Boot-DataMongoDB-Proj01-MongoRepository-OurIdProperties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Boot-DataMongoDB-Proj01-MongoRepository-OurIdProperties" name="Boot-DataMongoDB-Proj02-MongoRepository-OurIdProperties" stamp="1679114976754" updateReferences="true"/>
+</session>

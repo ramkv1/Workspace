@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.rk.runner&apos; to &apos;Boot-DataJPA-Proj9-EntityManager-MysqlCallingPL-SQLProcedure/src/main/java/com.rk.runner&apos;&#x0A;- Original project: &apos;Boot-DataJPA-Proj9-EntityManager-MysqlCallingPL-SQLProcedure&apos;&#x0A;- Destination element: &apos;Boot-DataJPA-Proj9-EntityManager-MysqlCallingPL-SQLProcedure/src/main/java/com.rk.runner&apos;&#x0A;- Original element: &apos;Boot-DataJPA-Proj9-EntityManager-MysqlCallingPL-SQLProcedure/src/main/java/com.rk.runner&apos;" description="Copy package" destination="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;com.rk.runner" element1="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;com.rk.runner" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1677397183680" version="1.0"/>
+</session>

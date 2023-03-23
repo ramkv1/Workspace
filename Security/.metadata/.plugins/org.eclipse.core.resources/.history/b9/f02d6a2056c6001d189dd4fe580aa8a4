@@ -1,0 +1,8 @@
+#Server Port
+server.port=4041
+
+#Context path
+server.servlet.context-path=/RestKafkaApp
+
+#Topic name
+app.topic.name=nit=tpc-sat1

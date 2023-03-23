@@ -1,0 +1,12 @@
+#jdbc properties
+spring:
+   datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/mysqlDB
+      username: ramkv
+      password: chatGPT2023
+      dbcp2:
+         max-total: 100
+         initial-size: 10
+         max-conn-lifetime-millis: 100000
+           

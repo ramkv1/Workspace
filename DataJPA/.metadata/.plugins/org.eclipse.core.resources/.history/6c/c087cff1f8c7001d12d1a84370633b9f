@@ -1,0 +1,57 @@
+package com.rk.config;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+import org.springframework.boot.jdbc.DataSourceBuilder;
+import org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.orm.jpa.JpaTransactionManager;
+import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+import jakarta.persistence.EntityManagerFactory;
+
+@Configuration
+@EnableTransactionManagement
+@EnableJpaRepositories(basePackages = "com.rk.repo.prod",
+						entityManagerFactoryRef = "mysqlEMF",
+						transactionManagerRef = "mysqltxMgmr")
+public class MysqlDBConfig {
+	
+	@Bean(name = "oraDS")
+	@ConditionalOnProperty(prefix = "mysql.ds")
+	@Primary
+	public DataSource createOracleDs() {
+		return DataSourceBuilder.create().build();
+	}
+	
+	@Bean("oraEMF")
+	public LocalContainerEntityManagerFactoryBean createLCEMFA(EntityManagerFactoryBuilder builder) {
+		//keep JPA-Hibernate properties in Map Collection
+		Map<String, String> map=new HashMap<String, String>();
+		map.put("hibernate.dialect", "org.hibernate.dialect.Oracle10gDialect");
+		map.put("hibernate.hbm2ddl.auto", "update");
+		map.put("hibernate.show_sql", "true");
+		map.put("hibernate.format_sql", "true");
+		
+		//create LocalContainerEntityManagerFactoryBean class
+		return builder.dataSource(createOracleDs())
+				.packages("com.rk.entity.prod")
+				.properties(map)
+				.build();
+	}
+	
+	@Bean(name = "oraTxMgmr")
+	@Primary
+	public JpaTransactionManager createOracleTxMgmr(@Qualifier("oraEMF") EntityManagerFactory factory) {
+		return new JpaTransactionManager(factory);
+	}
+}

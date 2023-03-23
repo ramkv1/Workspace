@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;IOCProj16-StrategyDp-100pcode-Loosecouping&apos;" deleteContents="true" description="Delete resource &apos;IOCProj16-StrategyDp-100pcode-Loosecouping&apos;" element1="/IOCProj16-StrategyDp-100pcode-Loosecouping" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1670131143521"/>
+</session>

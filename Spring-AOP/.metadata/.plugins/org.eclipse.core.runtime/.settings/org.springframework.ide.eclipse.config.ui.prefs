@@ -1,0 +1,19 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/Spring-AOP-Proj01/src/main/java/com/rk/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/SpringAOPProj-AroundAdvice/src/main/java/com/rk/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="6"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/SpringAOPProj01/src/main/java/com/rk/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/TxMgmtProj01-LocalTxMgmt-SpringJDBC/src/main/java/com/rk/cfgs/aop-beans.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/TxMgmtProj01-LocalTxMgmt-SpringJDBC/src/main/java/com/rk/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/TxMgmtProj01-LocalTxMgmt-SpringJDBC/src/main/java/com/rk/cfgs/persistance-bean.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage id\="com.springsource.sts.config.ui.editors.namespaces" index\="1" kind\="formPage"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/TxMgmtProj01-LocalTxMgmt-SpringJDBC/src/main/java/com/rk/cfgs/persistance-beans.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/TxMgmtProj01-LocalTxMgmt-SpringJDBC/src/main/java/com/rk/cfgs/service-beans.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/TxMgmtProj02Anno-LocalTxMgmt-SpringJDBC/src/main/java/com/rk/cfgs/aop-beans.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/TxMgmtProj02Anno-LocalTxMgmt-SpringJDBC/src/main/java/com/rk/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/TxMgmtProj02Anno-LocalTxMgmt-SpringJDBC/src/main/java/com/rk/cfgs/persistance-beans.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/TxMgmtProj02Anno-LocalTxMgmt-SpringJDBC/src/main/java/com/rk/cfgs/service-beans.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/springAOPProj-AfterAdvice/src/main/java/com/rk/cfgs/application.context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/springAOPProj-AfterAdvice/src/main/java/com/rk/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/txMgmtProj05-SpringDistributedTx-Atomikos/src/main/java/com/rk/cfgs/aop-beans.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/txMgmtProj05-SpringDistributedTx-Atomikos/src/main/java/com/rk/cfgs/persistence-config.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/txMgmtProj05-SpringDistributedTx-Atomikos/src/main/java/com/rk/cfgs/service-beans.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/txMgmtProj06-Boot-DistributedtxMgmt-Atomokis-1/src/main/java/com/rk/config/AOPConfig.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage id\="com.springsource.sts.config.ui.editors.namespaces" index\="1" kind\="formPage"/>
+eclipse.preferences.version=1

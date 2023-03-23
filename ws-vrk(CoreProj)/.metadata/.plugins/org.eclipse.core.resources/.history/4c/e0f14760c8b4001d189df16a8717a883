@@ -1,0 +1,33 @@
+package com.rk.main;
+
+public static abstract class Shape{
+	private int surface;
+	
+	public Shape() {
+		this.surface=surface;
+	}
+	protected abstract int computerSurface();
+		public int getsurface() {
+			return surface;
+		}
+	}
+
+public static class SquareShape extends Shape{
+	private final int size;
+	
+	public SquareShape(int size) {
+		this.size=size;
+	}
+	
+@Override
+	protected int computerSurface() {
+	return size=size;
+}
+}
+
+public class Main{
+	public static void main(String[] args) {
+		SquareShape squareShape=new SquareShape(10);
+		System.out.println(squareShape.getsurface());
+	}
+}

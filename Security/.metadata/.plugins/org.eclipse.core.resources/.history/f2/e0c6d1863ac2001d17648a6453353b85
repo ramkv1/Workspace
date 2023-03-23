@@ -1,0 +1,10 @@
+package com.rk.sender;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class MessageReciver  {
+
+	
+
+}

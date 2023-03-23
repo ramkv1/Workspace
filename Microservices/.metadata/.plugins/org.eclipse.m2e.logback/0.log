@@ -1,0 +1,21 @@
+2023-02-26 12:51:21,781 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-26 12:51:32,054 [Worker-1: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:BootMs-proj15-NetflixZuulServer:0.0.1-SNAPSHOT @ /home/vvkvrk/Desktop/Workspace/Microservices/BootMs-proj16-NetflixZuulServer-ZuulFilters/pom.xml.
+2023-02-26 12:51:37,554 [Worker-1: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:BootMs-proj02-EurekaServer:0.0.1-SNAPSHOT @ /home/vvkvrk/Desktop/Workspace/Microservices/BootMs-proj16-EurekaServer-Zuul-APIGateway/pom.xml.
+2023-02-26 12:51:40,733 [Worker-1: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:BootMs-proj04-ShoppingServiceMS-ConsumerMS-FeignClient:0.0.1-SNAPSHOT @ /home/vvkvrk/Desktop/Workspace/Microservices/BootMs-proj16-ShoppingServiceMS-ZuulFilters/pom.xml.
+2023-02-26 12:51:42,745 [Worker-1: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:BootMs-proj02-BillingServiceMS-ProviderMS:0.0.1-SNAPSHOT @ /home/vvkvrk/Desktop/Workspace/Microservices/BootMs-proj16-BillingServiceMS-Zuul1/pom.xml.
+2023-02-26 12:51:44,832 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-26 12:51:44,870 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-26 12:51:44,892 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/Microservices/BootMs-proj16-BillingServiceMS-Zuul1/src/test/resources
+2023-02-26 12:51:45,554 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-26 12:51:45,555 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-26 12:51:45,584 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-26 12:51:45,587 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-26 12:51:45,588 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/Microservices/BootMs-proj16-EurekaServer-Zuul-APIGateway/src/test/resources
+2023-02-26 12:51:46,333 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-26 12:51:46,333 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-26 12:51:46,374 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-26 12:51:46,377 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-26 12:51:46,378 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/Microservices/BootMs-proj16-NetflixZuulServer-ZuulFilters/src/test/resources
+2023-02-26 12:51:46,639 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-26 12:51:46,660 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-26 12:51:46,663 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/Microservices/BootMs-proj16-ShoppingServiceMS-ZuulFilters/src/test/resources

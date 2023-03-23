@@ -1,0 +1,9 @@
+package com.rk.service;
+
+import com.rk.repository.PlayerInfoRepository;
+
+public class PlayerMgmtServiceImpl implements IPlayerMgmtService{
+	
+	@Autowired
+	private PlayerInfoRepository repo;
+}

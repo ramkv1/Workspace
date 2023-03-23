@@ -1,0 +1,13 @@
+package com.rk.Service;
+
+import java.util.List;
+
+public class EmployeeMgmtServiceImpl implements IEmployeeMgmtService {
+
+	@Override
+	public List<Object[]> fetchEmpsDataByAddrs(String addrs) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

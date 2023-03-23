@@ -1,0 +1,5 @@
+package com.rk.runner;
+
+public class MongoDBSpecialTypeTestRunner {
+
+}

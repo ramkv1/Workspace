@@ -1,0 +1,13 @@
+package com.rk;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BootkafkaProj03ProducerAndConsumerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BootkafkaProj03ProducerAndConsumerApplication.class, args);
+	}
+
+}

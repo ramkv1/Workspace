@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Boot-DataJPA-Pro11-BLOB-CLOB&apos;" deleteContents="true" description="Delete resource &apos;Boot-DataJPA-Pro11-BLOB-CLOB&apos;" element1="/Boot-DataJPA-Pro11-BLOB-CLOB" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1677748183717"/>
+</session>

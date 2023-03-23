@@ -1,0 +1,25 @@
+INDEX VERSION 1.131+/home/vvkvrk/Desktop/Workspace/ws-vrk(CoreProj)/.metadata/.plugins/org.eclipse.jdt.core
+3097007044.index
+281909750.index
+2237229490.index
+3532120138.index
+1473081761.index
+297833682.index
+2839582380.index
+1865797976.index
+1446128881.index
+4635249.index
+4077891288.index
+1243692365.index
+2223914043.index
+2904732557.index
+2827808731.index
+3316897901.index
+2327803352.index
+290976083.index
+1432273168.index
+45189623.index
+2617940499.index
+3693879188.index
+598328982.index
+2810667644.index

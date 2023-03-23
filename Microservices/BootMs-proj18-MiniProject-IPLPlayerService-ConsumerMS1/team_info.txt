@@ -1,0 +1,273 @@
+2023-03-04T14:58:34.789+05:30  INFO 18129 --- [main] ectIplPlayerServiceConsumerMsApplication : Starting BootMsProj17MiniProjectIplPlayerServiceConsumerMsApplication using Java 17.0.2 with PID 18129 (/home/vvkvrk/Desktop/Workspace/Microservices/BootMs-proj18-MiniProject-IPLPlayerService-ConsumerMS1/target/classes started by vvkvrk in /home/vvkvrk/Desktop/Workspace/Microservices/BootMs-proj18-MiniProject-IPLPlayerService-ConsumerMS1)
+2023-03-04T14:58:34.795+05:30  INFO 18129 --- [main] ectIplPlayerServiceConsumerMsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-03-04T14:58:35.098+05:30  INFO 18129 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-03-04T14:58:35.098+05:30  INFO 18129 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=PLAYER-SERVICE, profiles=[default], label=null, version=527198656f4d4ac1d0cd0de69e566f38628cfb85, state=null
+2023-03-04T14:58:36.742+05:30  INFO 18129 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-04T14:58:38.124+05:30  INFO 18129 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1346 ms. Found 2 JPA repository interfaces.
+2023-03-04T14:58:38.548+05:30  INFO 18129 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c6305018-700a-315d-a692-a3109777abcd
+2023-03-04T14:58:38.690+05:30  INFO 18129 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.rk.client.ITeamServiceConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-04T14:58:39.251+05:30  INFO 18129 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9902 (http)
+2023-03-04T14:58:39.260+05:30  INFO 18129 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-04T14:58:39.262+05:30  INFO 18129 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04T14:58:39.436+05:30  INFO 18129 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-04T14:58:39.437+05:30  INFO 18129 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4337 ms
+2023-03-04T14:58:39.888+05:30  INFO 18129 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-04T14:58:40.029+05:30  INFO 18129 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-03-04T14:58:40.534+05:30  INFO 18129 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-04T14:58:40.998+05:30  INFO 18129 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@188ae8d2
+2023-03-04T14:58:41.000+05:30  INFO 18129 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-04T14:58:41.105+05:30  INFO 18129 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-04T14:58:41.109+05:30  WARN 18129 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-04T14:58:42.671+05:30  INFO 18129 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-04T14:58:42.681+05:30  INFO 18129 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-04T14:58:43.080+05:30  WARN 18129 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-04T14:58:43.160+05:30  INFO 18129 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'TEAM-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2023-03-04T14:58:43.860+05:30  INFO 18129 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-03-04T14:58:43.938+05:30  WARN 18129 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-04T14:58:43.952+05:30  INFO 18129 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 0 endpoint(s) beneath base path '/actuator'
+2023-03-04T14:58:44.021+05:30  INFO 18129 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-03-04T14:58:44.107+05:30  INFO 18129 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-03-04T14:58:44.110+05:30  INFO 18129 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-04T14:58:44.133+05:30  INFO 18129 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-03-04T14:58:44.134+05:30  INFO 18129 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-03-04T14:58:44.134+05:30  INFO 18129 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-03-04T14:58:44.134+05:30  INFO 18129 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-03-04T14:58:44.134+05:30  INFO 18129 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-03-04T14:58:44.134+05:30  INFO 18129 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-03-04T14:58:44.134+05:30  INFO 18129 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-03-04T14:58:44.316+05:30  INFO 18129 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-03-04T14:58:44.320+05:30  INFO 18129 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-03-04T14:58:44.325+05:30  INFO 18129 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-04T14:58:44.335+05:30  INFO 18129 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1677922124334 with initial instances count: 0
+2023-03-04T14:58:44.338+05:30  INFO 18129 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PLAYER-SERVICE with eureka with status UP
+2023-03-04T14:58:44.338+05:30  INFO 18129 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1677922124338, current=UP, previous=STARTING]
+2023-03-04T14:58:44.339+05:30  INFO 18129 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:30bea5ec6e2a926094c2482eeaafd1bc: registering service...
+2023-03-04T14:58:44.355+05:30  INFO 18129 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9902 (http) with context path ''
+2023-03-04T14:58:44.356+05:30  INFO 18129 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9902
+2023-03-04T14:58:44.391+05:30  INFO 18129 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:30bea5ec6e2a926094c2482eeaafd1bc - registration status: 204
+2023-03-04T14:58:44.420+05:30  INFO 18129 --- [main] ectIplPlayerServiceConsumerMsApplication : Started BootMsProj17MiniProjectIplPlayerServiceConsumerMsApplication in 12.475 seconds (process running for 13.516)
+2023-03-04T14:59:14.321+05:30  INFO 18129 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-03-04T14:59:14.321+05:30  INFO 18129 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-03-04T14:59:14.321+05:30  INFO 18129 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-03-04T14:59:14.321+05:30  INFO 18129 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-03-04T14:59:14.321+05:30  INFO 18129 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-03-04T14:59:14.321+05:30  INFO 18129 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-03-04T14:59:14.321+05:30  INFO 18129 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-03-04T14:59:14.333+05:30  INFO 18129 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-03-04T14:59:38.386+05:30  INFO 18129 --- [http-nio-9902-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-04T14:59:38.386+05:30  INFO 18129 --- [http-nio-9902-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-04T14:59:38.389+05:30  INFO 18129 --- [http-nio-9902-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-04T14:59:39.504+05:30 ERROR 18129 --- [http-nio-9902-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: feign.FeignException$InternalServerError: [500] during [GET] to [http://TEAM-SERVICE/team/api/find/1] [ITeamServiceConsumerClient#getTeamById(Integer)]: [{"timestamp":"2023-03-04T09:29:39.468+00:00","status":500,"error":"Internal Server Error","path":"/team/api/find/1"}]] with root cause
+
+feign.FeignException$InternalServerError: [500] during [GET] to [http://TEAM-SERVICE/team/api/find/1] [ITeamServiceConsumerClient#getTeamById(Integer)]: [{"timestamp":"2023-03-04T09:29:39.468+00:00","status":500,"error":"Internal Server Error","path":"/team/api/find/1"}]
+	at feign.FeignException.serverErrorStatus(FeignException.java:259) ~[feign-core-12.1.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:206) ~[feign-core-12.1.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:194) ~[feign-core-12.1.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:171) ~[feign-core-12.1.jar:na]
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92) ~[feign-core-12.1.jar:na]
+	at feign.ResponseHandler.decodeError(ResponseHandler.java:136) ~[feign-core-12.1.jar:na]
+	at feign.ResponseHandler.handleResponse(ResponseHandler.java:70) ~[feign-core-12.1.jar:na]
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:116) ~[feign-core-12.1.jar:na]
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:72) ~[feign-core-12.1.jar:na]
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:98) ~[feign-core-12.1.jar:na]
+	at jdk.proxy2/jdk.proxy2.$Proxy149.getTeamById(Unknown Source) ~[na:na]
+	at com.rk.ms.IPLPlayerOperationsController.registerPlayer(IPLPlayerOperationsController.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731) ~[tomcat-embed-core-10.1.5.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814) ~[tomcat-embed-core-10.1.5.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-03-04T15:02:03.546+05:30  INFO 18129 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PLAYER-SERVICE with eureka with status DOWN
+2023-03-04T15:02:03.546+05:30  INFO 18129 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1677922323546, current=DOWN, previous=UP]
+2023-03-04T15:02:03.547+05:30  INFO 18129 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:30bea5ec6e2a926094c2482eeaafd1bc: registering service...
+2023-03-04T15:02:03.558+05:30  INFO 18129 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:30bea5ec6e2a926094c2482eeaafd1bc - registration status: 204
+2023-03-04T15:02:03.571+05:30  INFO 18129 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-04T15:02:03.574+05:30  INFO 18129 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-04T15:02:03.580+05:30  INFO 18129 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-04T15:02:03.581+05:30  INFO 18129 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-03-04T15:02:06.600+05:30  INFO 18129 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-03-04T15:02:06.621+05:30  INFO 18129 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:30bea5ec6e2a926094c2482eeaafd1bc - deregister  status: 200
+2023-03-04T15:02:06.631+05:30  INFO 18129 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-03-04T17:34:58.259+05:30  INFO 30090 --- [main] ectIplPlayerServiceConsumerMsApplication : Starting BootMsProj17MiniProjectIplPlayerServiceConsumerMsApplication using Java 17.0.2 with PID 30090 (/home/vvkvrk/Desktop/Workspace/Microservices/BootMs-proj18-MiniProject-IPLPlayerService-ConsumerMS1/target/classes started by vvkvrk in /home/vvkvrk/Desktop/Workspace/Microservices/BootMs-proj18-MiniProject-IPLPlayerService-ConsumerMS1)
+2023-03-04T17:34:58.262+05:30  INFO 30090 --- [main] ectIplPlayerServiceConsumerMsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-03-04T17:34:58.508+05:30  INFO 30090 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-03-04T17:34:58.508+05:30  INFO 30090 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=PLAYER-SERVICE, profiles=[default], label=null, version=527198656f4d4ac1d0cd0de69e566f38628cfb85, state=null
+2023-03-04T17:35:10.628+05:30  INFO 30090 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-04T17:35:13.529+05:30  INFO 30090 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2771 ms. Found 2 JPA repository interfaces.
+2023-03-04T17:35:13.959+05:30  INFO 30090 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c6305018-700a-315d-a692-a3109777abcd
+2023-03-04T17:35:14.104+05:30  INFO 30090 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.rk.client.ITeamServiceConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-04T17:35:14.489+05:30  INFO 30090 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9902 (http)
+2023-03-04T17:35:14.498+05:30  INFO 30090 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-04T17:35:14.498+05:30  INFO 30090 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04T17:35:14.656+05:30  INFO 30090 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-04T17:35:14.657+05:30  INFO 30090 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 16147 ms
+2023-03-04T17:35:15.196+05:30  INFO 30090 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-04T17:35:15.333+05:30  INFO 30090 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-03-04T17:35:20.655+05:30  INFO 30090 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-04T17:35:20.964+05:30  INFO 30090 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77ebc9e6
+2023-03-04T17:35:20.966+05:30  INFO 30090 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-04T17:35:21.103+05:30  INFO 30090 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-04T17:35:21.106+05:30  WARN 30090 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-04T17:35:27.099+05:30  INFO 30090 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-04T17:35:27.105+05:30  INFO 30090 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-04T17:35:27.600+05:30  WARN 30090 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-04T17:35:27.643+05:30  INFO 30090 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'TEAM-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2023-03-04T17:35:29.147+05:30  INFO 30090 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-03-04T17:35:29.235+05:30  WARN 30090 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-04T17:35:29.263+05:30  INFO 30090 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 0 endpoint(s) beneath base path '/actuator'
+2023-03-04T17:35:29.485+05:30  INFO 30090 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-03-04T17:35:29.560+05:30  INFO 30090 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-03-04T17:35:29.564+05:30  INFO 30090 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-04T17:35:29.594+05:30  INFO 30090 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-03-04T17:35:29.594+05:30  INFO 30090 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-03-04T17:35:29.594+05:30  INFO 30090 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-03-04T17:35:29.594+05:30  INFO 30090 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-03-04T17:35:29.595+05:30  INFO 30090 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-03-04T17:35:29.595+05:30  INFO 30090 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-03-04T17:35:29.595+05:30  INFO 30090 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-03-04T17:35:30.412+05:30  INFO 30090 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-03-04T17:35:30.417+05:30  INFO 30090 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-03-04T17:35:30.420+05:30  INFO 30090 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-04T17:35:30.425+05:30  INFO 30090 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1677931530424 with initial instances count: 1
+2023-03-04T17:35:30.428+05:30  INFO 30090 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PLAYER-SERVICE with eureka with status UP
+2023-03-04T17:35:30.429+05:30  INFO 30090 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1677931530429, current=UP, previous=STARTING]
+2023-03-04T17:35:30.430+05:30  INFO 30090 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:aaed731c644b72fae0406821249fccf4: registering service...
+2023-03-04T17:35:30.459+05:30  INFO 30090 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9902 (http) with context path ''
+2023-03-04T17:35:30.460+05:30  INFO 30090 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9902
+2023-03-04T17:35:30.475+05:30  INFO 30090 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:aaed731c644b72fae0406821249fccf4 - registration status: 204
+2023-03-04T17:35:30.505+05:30  INFO 30090 --- [main] ectIplPlayerServiceConsumerMsApplication : Started BootMsProj17MiniProjectIplPlayerServiceConsumerMsApplication in 40.127 seconds (process running for 40.934)
+2023-03-04T17:36:26.785+05:30  INFO 30090 --- [http-nio-9902-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-04T17:36:26.785+05:30  INFO 30090 --- [http-nio-9902-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-04T17:36:26.787+05:30  INFO 30090 --- [http-nio-9902-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-04T17:36:27.332+05:30 ERROR 30090 --- [http-nio-9902-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: feign.FeignException$InternalServerError: [500] during [GET] to [http://TEAM-SERVICE/team/api/find/1] [ITeamServiceConsumerClient#getTeamById(Integer)]: [{"timestamp":"2023-03-04T12:06:27.304+00:00","status":500,"error":"Internal Server Error","path":"/team/api/find/1"}]] with root cause
+
+feign.FeignException$InternalServerError: [500] during [GET] to [http://TEAM-SERVICE/team/api/find/1] [ITeamServiceConsumerClient#getTeamById(Integer)]: [{"timestamp":"2023-03-04T12:06:27.304+00:00","status":500,"error":"Internal Server Error","path":"/team/api/find/1"}]
+	at feign.FeignException.serverErrorStatus(FeignException.java:259) ~[feign-core-12.1.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:206) ~[feign-core-12.1.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:194) ~[feign-core-12.1.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:171) ~[feign-core-12.1.jar:na]
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92) ~[feign-core-12.1.jar:na]
+	at feign.ResponseHandler.decodeError(ResponseHandler.java:136) ~[feign-core-12.1.jar:na]
+	at feign.ResponseHandler.handleResponse(ResponseHandler.java:70) ~[feign-core-12.1.jar:na]
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:116) ~[feign-core-12.1.jar:na]
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:72) ~[feign-core-12.1.jar:na]
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:98) ~[feign-core-12.1.jar:na]
+	at jdk.proxy2/jdk.proxy2.$Proxy149.getTeamById(Unknown Source) ~[na:na]
+	at com.rk.ms.IPLPlayerOperationsController.registerPlayer(IPLPlayerOperationsController.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731) ~[tomcat-embed-core-10.1.5.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814) ~[tomcat-embed-core-10.1.5.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-03-04T17:37:30.268+05:30  INFO 30090 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PLAYER-SERVICE with eureka with status DOWN
+2023-03-04T17:37:30.269+05:30  INFO 30090 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1677931650269, current=DOWN, previous=UP]
+2023-03-04T17:37:30.270+05:30  INFO 30090 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:aaed731c644b72fae0406821249fccf4: registering service...
+2023-03-04T17:37:30.278+05:30  INFO 30090 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:aaed731c644b72fae0406821249fccf4 - registration status: 204
+2023-03-04T17:37:30.303+05:30  INFO 30090 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-04T17:37:30.305+05:30  INFO 30090 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-04T17:37:30.341+05:30  INFO 30090 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-04T17:37:30.342+05:30  INFO 30090 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-03-04T17:37:33.344+05:30  WARN 30090 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2023-03-04T17:37:33.349+05:30  INFO 30090 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-03-04T17:37:33.359+05:30  INFO 30090 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:aaed731c644b72fae0406821249fccf4 - deregister  status: 200
+2023-03-04T17:37:33.365+05:30  INFO 30090 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

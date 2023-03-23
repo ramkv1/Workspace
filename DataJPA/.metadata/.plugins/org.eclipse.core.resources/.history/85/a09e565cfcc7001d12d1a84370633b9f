@@ -1,0 +1,28 @@
+package com.rk.runner;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+
+import com.rk.entity.prod.Product;
+import com.rk.repository.prod.IProductRepository;
+import com.rk.repository.promos.IOffersRepository;
+
+public class MultiDBInterationTestRunner implements CommandLineRunner {
+
+	@Autowired
+	private IProductRepository prodRepo;
+	@Autowired
+	private IOffersRepository OffersRepo;
+	@Override
+	public void run(String... args) throws Exception {
+		// save product
+		System.out.println("Saving multiple products::"+prodRepo.saveAll(List.of(new Product(),
+				new Product(),
+				new Product()
+				)));
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.rk.entity;
+
+public class Product {
+	private Integer pid;
+	private String pname;
+	private String category;
+	private Double qty;
+	private Double price;
+}

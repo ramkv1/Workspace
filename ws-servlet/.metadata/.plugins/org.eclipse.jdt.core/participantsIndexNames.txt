@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+/home/vvkvrk/Desktop/Workspace/ws-servlet/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2465964882.index
+/JspJdbcProj03/src/main/java
+/home/vvkvrk/Desktop/Workspace/ws-servlet/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1629463186.index
+/JspProj01/src/main/java
+/home/vvkvrk/Desktop/Workspace/ws-servlet/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/847640854.index
+/JspProj02/src/main/java

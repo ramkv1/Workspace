@@ -1,0 +1,13 @@
+package com.rk.main;
+
+
+enum Planet{
+	MERCURY, VENUS, EARTH
+}
+public class Main{
+	public static void main(String[] args) {
+		System.out.println(Planet.MERCURY==Planet.MERCURY);
+		System.out.println(Planet.MERCURY==Planet.VENUS);
+		System.out.println(Planet.MERCURY.equals(Planet.MERCURY));
+	}
+}

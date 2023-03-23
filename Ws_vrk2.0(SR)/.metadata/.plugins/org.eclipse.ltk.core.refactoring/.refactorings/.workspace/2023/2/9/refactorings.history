@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;BootRestProj17-MiniProject-Swagger-1&apos;" deleteContents="true" description="Delete resource &apos;BootRestProj17-MiniProject-Swagger-1&apos;" element1="/BootRestProj17-MiniProject-Swagger-1" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1677408167154"/>&#x0A;<refactoring comment="Delete resource &apos;BootRestProj18-EurekaServer&apos;" deleteContents="true" description="Delete resource &apos;BootRestProj18-EurekaServer&apos;" element1="/BootRestProj18-EurekaServer" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1677408655246"/>
+</session>

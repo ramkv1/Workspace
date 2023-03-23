@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.rk.runner&apos; to &apos;BootRestProj13-ActorService-CustomerApp-PathVariable/src/main/java&apos;&#x0A;- Original project: &apos;BootRestProj13-ActorService-CustomerApp-PathVariable1&apos;&#x0A;- Destination element: &apos;BootRestProj13-ActorService-CustomerApp-PathVariable/src/main/java&apos;&#x0A;- Original element: &apos;BootRestProj13-ActorService-CustomerApp-PathVariable1/src/main/java/com.rk.runner&apos;" description="Copy package" destination="=BootRestProj13-ActorService-CustomerApp-PathVariable/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.rk.runner" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1673325693349" version="1.0"/>
+</session>

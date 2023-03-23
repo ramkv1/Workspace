@@ -1,0 +1,28 @@
+package com.rk.main;
+
+
+class MBC extends Exception{
+	
+}
+class MDC extends MBC{
+	
+}
+
+@FunctionalInterface
+public interface A{
+	void m1();
+}
+
+public class Main{
+	public static void main(String[] args) {
+		try {
+			throw new MDC();
+		}
+		catch (MBC b) {
+			System.out.println("b");
+		}
+		catch (MDC d) {
+			System.out.println("d");
+		}
+	}
+}

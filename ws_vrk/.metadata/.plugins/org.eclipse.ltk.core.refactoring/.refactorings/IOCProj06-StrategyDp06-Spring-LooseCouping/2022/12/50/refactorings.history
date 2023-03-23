@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.rk.main&apos; to &apos;IOCProj16-StrategyDp-100pcode-Loosecouping/src/test/java&apos;&#x0A;- Original project: &apos;IOCProj06-StrategyDp06-Spring-LooseCouping&apos;&#x0A;- Destination element: &apos;IOCProj16-StrategyDp-100pcode-Loosecouping/src/test/java&apos;&#x0A;- Original element: &apos;IOCProj06-StrategyDp06-Spring-LooseCouping/src/test/java/com.rk.main&apos;" description="Copy package" destination="=IOCProj16-StrategyDp-100pcode-Loosecouping/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.rk.main" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1670130597073" version="1.0"/>
+</session>

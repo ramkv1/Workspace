@@ -1,0 +1,5 @@
+package com.rk.Repository;
+
+public interface IEmployeeRepository {
+
+}

@@ -1,0 +1,13 @@
+package com.rk.main;
+
+
+class MBC extends Exception{
+	
+}
+class MDC extends MBC{
+	
+}
+
+public class Main{
+	
+}

@@ -1,0 +1,302 @@
+2022-12-24 13:33:00,911 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-12-24 13:33:01,179 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2022-12-24 13:45:37,487 [Worker-13: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/pom.xml
+2022-12-24 13:45:38,752 [Worker-13: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: rk:JdbcApp1:0.0.1-SNAPSHOT @ /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/pom.xml.
+2022-12-24 13:45:39,588 [Worker-13: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JdbcApp1/src/main/java
+2022-12-24 13:45:39,609 [Worker-13: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JdbcApp1/src/test/java
+2022-12-24 13:45:39,744 [Worker-13: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2022-12-24 13:45:40,126 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 13:45:40,126 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/main/resources
+2022-12-24 13:45:40,127 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 13:45:40,128 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/test/resources
+2022-12-24 13:46:01,336 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: rk:JdbcApp1:0.0.1-SNAPSHOT @ /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/pom.xml.
+2022-12-24 13:46:01,417 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 13:46:01,418 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/main/resources
+2022-12-24 13:46:01,419 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 13:46:01,419 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/test/resources
+2022-12-24 13:46:02,693 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 13:46:02,693 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/main/resources
+2022-12-24 13:46:02,695 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 13:46:02,695 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/test/resources
+2022-12-24 13:47:42,637 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 13:47:42,637 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/main/resources
+2022-12-24 13:47:42,639 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 13:47:42,639 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/test/resources
+2022-12-24 13:50:19,027 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 13:50:19,028 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/main/resources
+2022-12-24 13:50:19,029 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 13:50:19,029 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/test/resources
+2022-12-24 13:59:41,603 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 13:59:41,627 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/main/resources
+2022-12-24 13:59:41,634 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 13:59:41,634 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/test/resources
+2022-12-24 14:00:43,192 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:00:43,193 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/main/resources
+2022-12-24 14:00:43,194 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:00:43,195 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/test/resources
+2022-12-24 14:01:23,185 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:01:23,186 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/main/resources
+2022-12-24 14:01:23,187 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:01:23,187 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/test/resources
+2022-12-24 14:02:41,506 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:02:41,506 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/main/resources
+2022-12-24 14:02:41,518 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:02:41,519 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/test/resources
+2022-12-24 14:17:28,847 [Worker-30: Launching JdbcApp1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:17:28,847 [Worker-30: Launching JdbcApp1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/main/resources
+2022-12-24 14:17:28,850 [Worker-30: Launching JdbcApp1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:17:28,850 [Worker-30: Launching JdbcApp1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/test/resources
+2022-12-24 14:18:26,165 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: rk:JdbcApp1:0.0.1-SNAPSHOT @ /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/pom.xml.
+2022-12-24 14:18:26,457 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:18:26,457 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/main/resources
+2022-12-24 14:18:26,459 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:18:26,460 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/test/resources
+2022-12-24 14:18:27,626 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:18:27,626 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/main/resources
+2022-12-24 14:18:27,628 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:18:27,628 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/test/resources
+2022-12-24 14:19:23,531 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:19:23,532 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/main/resources
+2022-12-24 14:19:23,534 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:19:23,535 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/test/resources
+2022-12-24 14:19:58,391 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:19:58,392 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/main/resources
+2022-12-24 14:19:58,396 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:19:58,397 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/test/resources
+2022-12-24 14:20:13,120 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:20:13,120 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/main/resources
+2022-12-24 14:20:13,121 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:20:13,121 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/test/resources
+2022-12-24 14:20:19,091 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:20:19,091 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/main/resources
+2022-12-24 14:20:19,092 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:20:19,092 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/test/resources
+2022-12-24 14:29:00,839 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:29:00,839 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/main/resources
+2022-12-24 14:29:00,844 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:29:00,844 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/test/resources
+2022-12-24 14:32:49,496 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:32:49,496 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/main/resources
+2022-12-24 14:32:49,499 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:32:49,501 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/test/resources
+2022-12-24 14:36:43,988 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:36:43,988 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/main/resources
+2022-12-24 14:36:43,989 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:36:43,989 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/test/resources
+2022-12-24 14:40:34,284 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:40:34,285 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/main/resources
+2022-12-24 14:40:34,287 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 14:40:34,287 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/test/resources
+2022-12-24 15:06:15,212 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:06:15,252 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/main/resources
+2022-12-24 15:06:15,254 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:06:15,254 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/test/resources
+2022-12-24 15:12:14,921 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:12:14,921 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/main/resources
+2022-12-24 15:12:14,922 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:12:14,922 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/test/resources
+2022-12-24 15:12:52,374 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:12:52,374 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/main/resources
+2022-12-24 15:12:52,375 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:12:52,375 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/test/resources
+2022-12-24 15:14:51,333 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:14:51,333 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/main/resources
+2022-12-24 15:14:51,333 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:14:51,334 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/test/resources
+2022-12-24 15:16:00,611 [Worker-35: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: rk:JdbcApp1:0.0.1-SNAPSHOT @ /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/pom.xml.
+2022-12-24 15:16:00,876 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:16:00,876 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/main/resources
+2022-12-24 15:16:00,879 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:16:00,879 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/test/resources
+2022-12-24 15:16:02,105 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:16:02,106 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/main/resources
+2022-12-24 15:16:02,107 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:16:02,107 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/test/resources
+2022-12-24 15:16:21,778 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:16:21,778 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/main/resources
+2022-12-24 15:16:21,780 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:16:21,780 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/test/resources
+2022-12-24 15:16:24,738 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:16:24,739 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/main/resources
+2022-12-24 15:16:24,740 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:16:24,740 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/test/resources
+2022-12-24 15:17:57,949 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:17:57,950 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/main/resources
+2022-12-24 15:17:57,952 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:17:57,953 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/test/resources
+2022-12-24 15:23:29,235 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:23:29,236 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/main/resources
+2022-12-24 15:23:29,239 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:23:29,239 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/test/resources
+2022-12-24 15:23:39,969 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:23:39,969 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/main/resources
+2022-12-24 15:23:39,972 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:23:39,972 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/test/resources
+2022-12-24 15:23:49,699 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:23:49,699 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/main/resources
+2022-12-24 15:23:49,701 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:23:49,701 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/test/resources
+2022-12-24 15:23:52,287 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:23:52,287 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/main/resources
+2022-12-24 15:23:52,289 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:23:52,289 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/test/resources
+2022-12-24 15:36:31,865 [Worker-35: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: rk:JdbcApp1:0.0.1-SNAPSHOT @ /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp4/pom.xml.
+2022-12-24 15:36:31,882 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:36:31,882 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp4/src/main/resources
+2022-12-24 15:36:31,884 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:36:31,884 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp4/src/test/resources
+2022-12-24 15:36:33,112 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:36:33,112 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp4/src/main/resources
+2022-12-24 15:36:33,113 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:36:33,113 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp4/src/test/resources
+2022-12-24 15:36:46,145 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:36:46,146 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp4/src/main/resources
+2022-12-24 15:36:46,146 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:36:46,146 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp4/src/test/resources
+2022-12-24 15:36:49,546 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:36:49,546 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp4/src/main/resources
+2022-12-24 15:36:49,547 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:36:49,547 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp4/src/test/resources
+2022-12-24 15:41:37,499 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:41:37,499 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp4/src/main/resources
+2022-12-24 15:41:37,499 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:41:37,500 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp4/src/test/resources
+2022-12-24 15:42:15,032 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:42:15,033 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp4/src/main/resources
+2022-12-24 15:42:15,035 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 15:42:15,035 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp4/src/test/resources
+2022-12-24 16:07:47,183 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 16:07:47,184 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp4/src/main/resources
+2022-12-24 16:07:47,184 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 16:07:47,184 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp4/src/test/resources
+2022-12-24 16:13:14,226 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 16:13:14,226 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/main/resources
+2022-12-24 16:13:14,227 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 16:13:14,227 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/test/resources
+2022-12-24 16:13:48,560 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 16:13:48,561 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/main/resources
+2022-12-24 16:13:48,562 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 16:13:48,562 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/test/resources
+2022-12-24 16:14:26,260 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 16:14:26,260 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/main/resources
+2022-12-24 16:14:26,261 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 16:14:26,261 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/test/resources
+2022-12-24 16:36:06,366 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 16:36:06,366 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/main/resources
+2022-12-24 16:36:06,367 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 16:36:06,367 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/test/resources
+2022-12-24 16:36:08,148 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 16:36:08,149 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/main/resources
+2022-12-24 16:36:08,152 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 16:36:08,152 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/test/resources
+2022-12-24 21:50:54,732 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-12-24 21:51:22,162 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: rk:JdbcApp1:0.0.1-SNAPSHOT @ /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/pom.xml.
+2022-12-24 21:51:24,300 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 21:51:24,300 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/main/resources
+2022-12-24 21:51:24,302 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 21:51:24,302 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/test/resources
+2022-12-24 21:51:25,437 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 21:51:25,438 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/main/resources
+2022-12-24 21:51:25,439 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 21:51:25,439 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/test/resources
+2022-12-24 21:54:09,651 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 21:54:09,651 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/main/resources
+2022-12-24 21:54:09,652 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 21:54:09,652 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/test/resources
+2022-12-24 22:00:19,578 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 22:00:19,579 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/main/resources
+2022-12-24 22:00:19,581 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-24 22:00:19,581 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/test/resources
+2022-12-25 08:42:37,425 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-25 08:42:37,425 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/main/resources
+2022-12-25 08:42:37,426 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-25 08:42:37,426 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/test/resources
+2022-12-25 08:43:26,099 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-25 08:43:26,099 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/main/resources
+2022-12-25 08:43:26,101 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-25 08:43:26,101 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/test/resources
+2022-12-25 08:59:44,172 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-25 08:59:44,172 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/main/resources
+2022-12-25 08:59:44,173 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-25 08:59:44,174 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/test/resources
+2022-12-25 09:00:36,080 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-25 09:00:36,081 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/main/resources
+2022-12-25 09:00:36,084 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-25 09:00:36,084 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/test/resources
+2022-12-25 12:28:14,201 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-12-25 12:49:38,305 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-25 12:49:38,306 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/main/resources
+2022-12-25 12:49:38,310 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-25 12:49:38,311 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/test/resources
+2022-12-25 12:50:28,680 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-25 12:50:28,680 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/main/resources
+2022-12-25 12:50:28,682 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-25 12:50:28,682 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/test/resources
+2022-12-25 12:54:17,640 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-25 12:54:17,640 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/main/resources
+2022-12-25 12:54:17,641 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-25 12:54:17,641 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/test/resources
+2022-12-25 12:59:00,078 [Worker-27: Launching JdbcApp39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-25 12:59:00,079 [Worker-27: Launching JdbcApp39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/main/resources
+2022-12-25 12:59:00,082 [Worker-27: Launching JdbcApp39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-25 12:59:00,082 [Worker-27: Launching JdbcApp39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/test/resources
+2022-12-26 08:45:08,601 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-12-26 08:45:10,231 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2022-12-29 12:55:11,616 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-01-03 15:12:31,883 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-01-03 19:14:01,452 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-01-07 15:55:00,702 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-01-07 18:45:55,478 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-11 22:27:40,828 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-11 22:36:07,101 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-13 23:56:21,499 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-13 23:56:37,055 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-13 23:56:37,079 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/main/resources
+2023-02-13 23:56:37,081 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-13 23:56:37,082 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/test/resources
+2023-02-13 23:56:46,776 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-13 23:56:46,776 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/main/resources
+2023-02-13 23:56:46,778 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-13 23:56:46,778 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/test/resources
+2023-02-13 23:56:49,965 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-02-13 23:56:55,586 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: rk:JdbcApp1:0.0.1-SNAPSHOT @ /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/pom.xml.
+2023-02-13 23:56:55,692 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: rk:JdbcApp1:0.0.1-SNAPSHOT @ /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/pom.xml.
+2023-02-13 23:56:55,757 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: rk:JdbcApp1:0.0.1-SNAPSHOT @ /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/pom.xml.
+2023-02-13 23:56:55,807 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: rk:JdbcApp1:0.0.1-SNAPSHOT @ /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/pom.xml.
+2023-02-13 23:56:55,926 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: rk:JdbcApp1:0.0.1-SNAPSHOT @ /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp4/pom.xml.
+2023-02-13 23:57:01,783 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JdbcApp1/src/main/java
+2023-02-13 23:57:01,784 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JdbcApp1/src/test/java
+2023-02-13 23:57:01,828 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JdbcApp2/src/main/java
+2023-02-13 23:57:01,829 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JdbcApp2/src/test/java
+2023-02-13 23:57:01,858 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JdbcApp3/src/main/java
+2023-02-13 23:57:01,858 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JdbcApp3/src/test/java
+2023-02-13 23:57:01,886 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JdbcApp39/src/main/java
+2023-02-13 23:57:01,887 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JdbcApp39/src/test/java
+2023-02-13 23:57:01,914 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JdbcApp4/src/main/java
+2023-02-13 23:57:01,915 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JdbcApp4/src/test/java
+2023-02-13 23:57:02,620 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 12 sec
+2023-02-13 23:57:02,855 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-13 23:57:02,855 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/main/resources
+2023-02-13 23:57:02,856 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-13 23:57:02,857 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp1/src/test/resources
+2023-02-13 23:57:02,907 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-13 23:57:02,907 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/main/resources
+2023-02-13 23:57:02,909 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-13 23:57:02,910 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp2/src/test/resources
+2023-02-13 23:57:03,063 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-13 23:57:03,063 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/main/resources
+2023-02-13 23:57:03,064 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-13 23:57:03,064 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp3/src/test/resources
+2023-02-13 23:57:03,396 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-13 23:57:03,396 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/main/resources
+2023-02-13 23:57:03,397 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-13 23:57:03,397 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/test/resources
+2023-02-13 23:57:04,010 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-13 23:57:04,010 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp4/src/main/resources
+2023-02-13 23:57:04,012 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-13 23:57:04,012 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp4/src/test/resources
+2023-02-24 17:07:19,972 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-24 17:08:01,144 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-24 17:08:01,145 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/main/resources
+2023-02-24 17:08:01,147 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-24 17:08:01,147 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/vvkvrk/Desktop/Workspace/ws-JDBC/JdbcApp39/src/test/resources

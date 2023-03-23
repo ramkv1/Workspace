@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="BootJMSProj01-ReciverApp-PTP"/>
+<aop-project name="BootSecurityproj02-SecurityApp-DB"/>
+<aop-project name="BootSecurityproj03-SecurityApp-SpringDataJPA"/>
+<aop-project name="BootJMSProj01-SenderApp-PTP"/>
+<aop-project name="BootkafkaProj03-ProducerAndConsumer"/>
+<aop-project name="BootOauthProj01"/>
+<aop-project name="BootOauthProj02"/>
+<aop-project name="BootSecurityproj01-SecurityApp"/>
+</aop-reference-model>

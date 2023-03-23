@@ -1,0 +1,33 @@
+package com.rk.config;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.sql.DataSource;
+
+import org.hibernate.jpa.boot.spi.EntityManagerFactoryBuilder;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+import org.springframework.boot.jdbc.DataSourceBuilder;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
+
+@Configuration
+public class OracleDBConfig {
+	
+	@Bean(name = "oraDS")
+	@ConditionalOnProperty(prefix = "oracle.ds")
+	public DataSource createDs() {
+		return DataSourceBuilder.create().build();
+	}
+	
+	@Bean("oraEMF")
+	public LocalContainerEntityManagerFactoryBean createLCEMFA(EntityManagerFactoryBuilder builder) {
+		//keep JPA-Hibernate properties in Map Collection
+		Map<String, String> map=new HashMap<String, String>();
+		map.put("hibernate.dialect", "org.hibernate.dialect.Oracle10gDialect");
+		map.put("hibernate.hbm2ddl.auto", "update");
+		map.put("hibernate.show_sql", "true");
+		map.put("hibernate.format_sql", "true");
+	}
+}

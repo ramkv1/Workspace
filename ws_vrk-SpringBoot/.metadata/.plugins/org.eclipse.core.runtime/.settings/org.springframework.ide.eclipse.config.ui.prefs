@@ -1,0 +1,5 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/BootProj01-DependencyInjection-looseCoupling/src/main/java/com/rk/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/BootProj02-StrategyDp/src/main/java/com/rk/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/BootProj04-LayeredApp-RealtimeDI-ForMultipleDB/src/main/java/com/rk/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/BootProj10-LayeredApp-RealtimeDI-Profiles/src/main/java/com/rk/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+eclipse.preferences.version=1

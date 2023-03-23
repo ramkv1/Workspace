@@ -1,0 +1,13 @@
+package com.rk.main;
+
+import java.io.Serializable;
+
+static class A implements Serializable{
+	
+}
+public class Main{
+	public static void main(String[] args) {
+		SquareShape squareShape=new SquareShape(10);
+		System.out.println(squareShape.getsurface());
+	}
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="IOCProj04-SetterInjection@Qualifier"/>
+<aop-project name="IOCProj16-StrategyDP-100pcode-LooseCoupling"/>
+<aop-project name="IOCProj01-SetterInjection"/>
+<aop-project name="IOCProj14-SpringBeanLifeCycle-ProgramaticApproach"/>
+<aop-project name="IOCProj09-TraditionalDependencyLookup"/>
+<aop-project name="IOCProj10-AwareInjection-DependencyLookup"/>
+<aop-project name="IOCProj03-StrategyDp03-Spring"/>
+<aop-project name="IOCProj12-MethodReplacer"/>
+<aop-project name="I18n"/>
+<aop-project name="IOCProj15-100pCode-BasicApplication"/>
+<aop-project name="IOCProj02-SetterInjection"/>
+<aop-project name="IOCProj13-SpringBeanLifeCycle-DeclarativeApproach"/>
+<aop-project name="IOCProj08-EventHandling"/>
+<aop-project name="IOCProj11-LookupMethodInjection"/>
+<aop-project name="IOCProj06-StrategyDp06-Spring-LooseCouping"/>
+</aop-reference-model>

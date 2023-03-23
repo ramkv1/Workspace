@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.rk.model&apos; to &apos;BootRestProj05-CustomerProviderApp-SendingXMLData/src/main/java&apos;&#x0A;- Original project: &apos;BootRestProj03-CustomerProviderApp-SendingJSONData&apos;&#x0A;- Destination element: &apos;BootRestProj05-CustomerProviderApp-SendingXMLData/src/main/java&apos;&#x0A;- Original element: &apos;BootRestProj03-CustomerProviderApp-SendingJSONData/src/main/java/com.rk.model&apos;" description="Copy package" destination="=BootRestProj05-CustomerProviderApp-SendingXMLData/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.rk.model" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1672205104521" version="1.0"/>
+</session>

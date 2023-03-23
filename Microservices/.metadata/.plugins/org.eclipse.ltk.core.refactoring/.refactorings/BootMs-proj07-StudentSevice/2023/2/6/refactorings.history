@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;BootMs-proj07-StudentSevice&apos;&#x0A;- Original project: &apos;BootMs-proj07-StudentSevice&apos;&#x0A;- Original element: &apos;Snippet.java&apos;" description="Delete element" element1="src/main/resources/snippet/Snippet.java" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1675840775926" subPackages="false" version="1.0"/>
+</session>

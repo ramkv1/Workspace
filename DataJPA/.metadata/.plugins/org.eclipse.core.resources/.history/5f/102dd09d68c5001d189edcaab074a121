@@ -1,0 +1,7 @@
+package com.rk.service;
+
+import com.rk.document.PlayerInfo;
+
+public interface IPlayerMgmtService {
+	public String registerPlayer(PlayerInfo playerInfo);
+}

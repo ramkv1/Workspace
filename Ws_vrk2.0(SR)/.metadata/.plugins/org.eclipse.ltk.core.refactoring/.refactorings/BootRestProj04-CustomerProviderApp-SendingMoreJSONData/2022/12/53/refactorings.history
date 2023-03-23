@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;BootBatchProj001-POC/src/main/java&apos;&#x0A;- Original project: &apos;BootRestProj04-CustomerProviderApp-SendingMoreJSONData&apos;&#x0A;- Destination element: &apos;BootBatchProj001-POC/src/main/java&apos;&#x0A;- Original elements:&#x0A;     BootRestProj04-CustomerProviderApp-SendingMoreJSONData/src/main/java/com.rk.model&#x0A;     BootRestProj04-CustomerProviderApp-SendingMoreJSONData/src/main/java/com.rk.rest" description="Copy packages" destination="=BootBatchProj001-POC/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.rk.model" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.rk.rest" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1672072896077" version="1.0"/>
+</session>

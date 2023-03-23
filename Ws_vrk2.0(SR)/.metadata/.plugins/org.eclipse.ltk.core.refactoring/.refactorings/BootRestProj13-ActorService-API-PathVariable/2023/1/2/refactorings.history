@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.rk.rest&apos; to &apos;BootRestProj14-ActorService-API-Post-JsonBody/src/main/java&apos;&#x0A;- Original project: &apos;BootRestProj13-ActorService-API-PathVariable&apos;&#x0A;- Destination element: &apos;BootRestProj14-ActorService-API-Post-JsonBody/src/main/java&apos;&#x0A;- Original element: &apos;BootRestProj13-ActorService-API-PathVariable/src/main/java/com.rk.rest&apos;" description="Copy package" destination="=BootRestProj14-ActorService-API-Post-JsonBody/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.rk.rest" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1673348177537" version="1.0"/>
+</session>

@@ -1,0 +1,33 @@
+package com.rk.runner;
+
+import java.util.Random;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
+import com.rk.document.Employee;
+import com.rk.service.IEmployeeMgmtService;
+
+@Component
+public class MongoDB_CURDOperationTestRunner implements CommandLineRunner {
+
+	@Autowired
+	private IEmployeeMgmtService service;
+	
+	@Override
+	public void run(String... args) throws Exception {
+	try {
+		Employee emp=new Employee();
+		emp.setEno(new Random().nextInt(10000000));
+		emp.setEname("Rejesh");emp.setSalary(90000.0f);emp.setEadd("Hyd");emp .setVaccinated(true);
+		
+		System.out.println(service.SaveDocuments(emp));
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
+	
+	
+	}
+
+}

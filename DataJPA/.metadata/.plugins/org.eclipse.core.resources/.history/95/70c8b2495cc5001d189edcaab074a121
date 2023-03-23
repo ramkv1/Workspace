@@ -1,0 +1,18 @@
+package com.rk.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.rk.document.PlayerInfo;
+import com.rk.repository.PlayerInfoRepository;
+
+public class PlayerMgmtServiceImpl implements IPlayerMgmtService{
+	
+	@Autowired
+	private PlayerInfoRepository repo;
+
+	@Override
+	public String registerPlayer(PlayerInfo playerInfo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

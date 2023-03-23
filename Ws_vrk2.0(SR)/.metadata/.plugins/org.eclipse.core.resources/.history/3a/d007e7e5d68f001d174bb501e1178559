@@ -1,0 +1,21 @@
+package com.rk.runner;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.client.RestTemplate;
+
+public class ActorServiceConsumerAppRunner implements CommandLineRunner {
+
+	@Override
+	public void run(String... args) throws Exception {
+		//create TestTemplate class object
+		RestTemplate template=new RestTemplate();
+		//prepare base url
+		String baseurl="http://localhost:8080/BootRestProj12-ActorService-API/actor/show";
+		//invoke the Service/operation of provider App
+		ResponseEntity<String> response=template.getForEntity(baseurl,String.class);
+		System.out.println("response body::"+response.getBody());
+		System.out.println("response status code::"+response.getStatusCode());
+	}
+
+}

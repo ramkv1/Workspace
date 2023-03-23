@@ -1,0 +1,9 @@
+package com.rk.Producer;
+
+public class kafkaMessageProducerApp 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}

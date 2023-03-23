@@ -1,0 +1,27 @@
+package com.rk.runner;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
+import com.rk.document.Employee;
+import com.rk.service.IEmployeeMgmtService;
+
+@Component
+public class MongoDB_CURDOperationTestRunner implements CommandLineRunner {
+
+	@Autowired
+	private IEmployeeMgmtService service;
+	
+	@Override
+	public void run(String... args) throws Exception {
+	try {
+		
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
+	
+	
+	}
+
+}

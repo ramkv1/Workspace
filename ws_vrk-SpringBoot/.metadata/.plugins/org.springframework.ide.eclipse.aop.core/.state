@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="BootProj06-DataInjection-BulkInjectionUsingConfigurationProperties"/>
+<aop-project name="BootProj02-StrategyDP"/>
+<aop-project name="BootProj02-StrategyDp-Loosecoupling"/>
+<aop-project name="BootProj07-MoreBulkDataInjection"/>
+<aop-project name="BootProj10-LayeredApp-RealtimeDI-Profiles"/>
+<aop-project name="BootProj01-DependencyInjection"/>
+<aop-project name="BootProj08-DataInjection-YML"/>
+<aop-project name="BootProj03-LayeredApp-RealtimeDI"/>
+<aop-project name="BootProj12-LayeredApp-Profiles-SingleYML"/>
+<aop-project name="BootProj05-DataInjection-UsingValueAnnotation"/>
+<aop-project name="BootProj09-DataInjection-MoreOn-YML"/>
+<aop-project name="BootProj11-LayeredApp-Profiles-MultipleYMLFiles"/>
+<aop-project name="BootProj04-LayeredApp-RealtimeDI-ForMultipleDB"/>
+</aop-reference-model>

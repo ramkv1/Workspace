@@ -1,0 +1,25 @@
+package com.rk.entity;
+
+import java.time.LocalDate;
+
+import org.springframework.data.annotation.Id;
+
+import jakarta.persistence.Entity;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
+
+@Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@RequiredArgsConstructor
+public class Offers {
+	@Id
+	
+	private Integer ofid;
+	private String offername;
+	private double DiscountPer;
+	private LocalDate validto;
+	
+}

@@ -1,0 +1,11 @@
+package com.rk.Service;
+
+import java.util.List;
+
+import com.rk.Document.Employee;
+
+public interface IEmployeeMgmtService {
+	public List<Object[]> fetchEmpsDataByAddrs(String addrs);
+	public List<Employee> fetchempallDataByAddrs(String addrs);
+	public List<Object[]> fetchempDataByAddrsandSalary(double salary,String addrs)
+}

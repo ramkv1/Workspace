@@ -1,0 +1,19 @@
+#jdbc properties
+spring:
+   datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/mysqlDB
+      username: root
+      password: Vamshi57
+      c3P0:
+        minSize: 10
+        maxSize: 100
+        
+           
+             
+#Specify the DataSource type
+      type: com.mchange.v2.c3p0.ComboPooledDataSource
+
+
+
+

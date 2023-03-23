@@ -1,0 +1,55 @@
+package com.rk.runner;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
+import com.rk.document.Employee;
+import com.rk.service.IEmployeeMgmtService;
+
+@Component
+public class MongoDB_CURDOperationTestRunner implements CommandLineRunner {
+
+	@Autowired
+	private IEmployeeMgmtService service;
+	
+	@Override
+	public void run(String... args) throws Exception {
+		/*try {
+			
+			
+			Employee employee=new Employee();
+			employee.setEno(101);
+			employee.setEname("Raja");
+			employee.setEadd("Hyd");
+			employee.setSalary(90000.0f);
+			Employee employee1=new Employee();
+			employee1.setEno(102);
+			employee1.setEname("Rani");
+			employee1.setEadd("kkr");
+			employee1.setSalary(87000.0f);
+			System.out.println(service.SaveDocuments(employee));
+			System.out.println(service.SaveDocuments(employee1));
+			}
+		
+		*/
+		/*try {
+			//service.findAllEmployee().forEach(System.out::println);
+			//System.out.println(service.findEmployeeById("640f268fb269641d5a9d8716"));
+			//System.out.println(service.modifyEmployeeWithNewSalary("640ea2450bb840051c1dbba5", 10f));
+			//System.out.println(service.RemoveEmployee("640f256cac9b137ffa9cd90e"));
+			
+		}*/
+		Employee emp=new Employee();
+		emp.setSalary(70000.0f);
+		emp.setEadd("Delhi");
+		try {
+			service.searchEmployeeByExampleData(emp, true, "salary").forEach(System.out::println);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+}

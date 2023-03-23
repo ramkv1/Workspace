@@ -1,0 +1,56 @@
+package com.rk.config;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.boot.jdbc.DataSourceBuilder;
+import org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.orm.jpa.JpaTransactionManager;
+import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+import jakarta.persistence.EntityManagerFactory;
+
+@Configuration
+@EnableTransactionManagement
+@EnableJpaRepositories(basePackages = "com.rk.repository.prod",
+						entityManagerFactoryRef = "mysqlEMF",
+						transactionManagerRef = "mysqltxMgmr")
+public class MysqlDBConfig {
+	
+	@Bean(name = "mysqlDS")
+	@ConfigurationProperties(prefix = "mysql.datasource")
+	public DataSource createmysqlDs() {
+		return DataSourceBuilder.create().build();
+	}
+	
+	@Bean("mysqlEMF")
+	public LocalContainerEntityManagerFactoryBean createLCEMFA(EntityManagerFactoryBuilder builder) {
+		//keep JPA-Hibernate properties in Map Collection
+		Map<String, String> map=new HashMap<String, String>();
+		map.put("hibernate.dialect", "org.hibernate.dialect.MySQL8Dialect");
+		map.put("hibernate.hbm2ddl.auto", "update");
+		map.put("hibernate.show_sql", "true");
+		map.put("hibernate.format_sql", "true");
+		
+		//create LocalContainerEntityManagerFactoryBean class
+		return builder.dataSource(createmysqlDs())
+				.packages("com.rk.entity.prod")
+				.properties(map)
+				.build();
+	}
+	
+	@Bean(name = "mysqlTxMgmr")
+	public JpaTransactionManager createOracleTxMgmr(@Qualifier("mysqlEMF") EntityManagerFactory factory) {
+		return new JpaTransactionManager(factory);
+	}
+}

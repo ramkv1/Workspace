@@ -1,0 +1,23 @@
+#jdbc properties
+spring:
+   datasource:
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+      url: jdbc:oracle:thin:@localhost:1521:xe
+      username: system
+      password: tiger
+      oracle:
+         max-pool-size: 100
+         min-pool-size: 10
+           
+             
+#Specify the DataSource type
+      type: oracle.ucp.jdbc.PoolDataSourceImpl
+      
+      
+      
+      
+      
+      
+      
+      
+

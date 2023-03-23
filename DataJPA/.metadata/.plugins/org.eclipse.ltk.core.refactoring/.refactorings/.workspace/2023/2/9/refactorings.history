@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Boot-DataJPA-Proj9-EntityManager-MysqlCallingPL-SQLProcedure&apos; to &apos;Boot-DataJPA-Proj9-WorkingWithDate-TimeValues&apos;" description="Rename resource &apos;Boot-DataJPA-Proj9-EntityManager-MysqlCallingPL-SQLProcedure&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Boot-DataJPA-Proj9-EntityManager-MysqlCallingPL-SQLProcedure" name="Boot-DataJPA-Proj9-WorkingWithDate-TimeValues" stamp="1677397338230" updateReferences="true"/>
+</session>

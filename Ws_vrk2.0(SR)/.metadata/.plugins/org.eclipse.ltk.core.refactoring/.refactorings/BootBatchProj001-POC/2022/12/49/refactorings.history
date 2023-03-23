@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;JobMonitoringListener.java&apos; to &apos;BootBatchProj02-CSVToDBTable/src/main/java/com.rk.listener&apos;&#x0A;- Original project: &apos;BootBatchProj001-POC&apos;&#x0A;- Destination element: &apos;BootBatchProj02-CSVToDBTable/src/main/java/com.rk.listener&apos;&#x0A;- Original element: &apos;com.rk.listener.JobMonitoringListener.java&apos;" description="Copy compilation unit" destination="=BootBatchProj02-CSVToDBTable/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.rk.listener" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.rk.listener{JobMonitoringListener.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1669964182941" units="1" version="1.0"/>
+</session>

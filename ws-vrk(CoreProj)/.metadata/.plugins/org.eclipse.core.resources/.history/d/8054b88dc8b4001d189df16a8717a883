@@ -1,0 +1,11 @@
+package com.rk.main;
+
+import java.io.Serializable;
+
+static class A implements Serializable{
+	
+}
+public class Main{
+	public static void main(String[] args) {
+	}
+}

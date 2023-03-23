@@ -1,0 +1,253 @@
+
+Dec 12, 2022 15:10:10.449 NEW SESSION
+Dec 12, 2022 15:10:10.449 [15411:15445:1212/151010.447562:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:10:56.428 [15681:15713:1212/151056.427931:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:11:13.569 [15923:15956:1212/151113.569001:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:11:40.570 [15923:15956:1212/151140.570530:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:12:35.951 [15923:15956:1212/151235.951250:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:14:14.515 [15923:15956:1212/151414.515158:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:16:57.660 [15923:15956:1212/151657.660368:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:22:21.618 Opening in existing browser session.
+Dec 12, 2022 15:23:20.420 Opening in existing browser session.
+Dec 12, 2022 15:23:39.273 [15923:15956:1212/152339.273136:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:24:09.468 [16790:16820:1212/152409.468242:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:24:37.219 [16790:16820:1212/152437.219493:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:24:56.445 Opening in existing browser session.
+Dec 12, 2022 15:25:24.290 [16790:16820:1212/152524.290072:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:25:54.558 Opening in existing browser session.
+Dec 12, 2022 15:26:09.349 [17873:17905:1212/152609.348950:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:26:32.01 [17873:17905:1212/152632.000963:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:27:16.339 [17873:17905:1212/152716.338610:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:29:06.676 [18160:18190:1212/152906.676491:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:29:33.449 [18160:18190:1212/152933.448888:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:30:20.67 [18160:18190:1212/153020.067382:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:31:58.619 [18160:18190:1212/153158.619195:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:35:03.586 Opening in existing browser session.
+Dec 12, 2022 15:35:16.606 Opening in existing browser session.
+Dec 12, 2022 15:35:56.426 [18160:18190:1212/153556.426017:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:39:37.432 Opening in existing browser session.
+Dec 12, 2022 15:42:27.768 Opening in existing browser session.
+Dec 12, 2022 15:42:44.447 Opening in existing browser session.
+Dec 12, 2022 15:43:29.02 [18160:18190:1212/154329.002323:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 15:44:24.968 Opening in existing browser session.
+Dec 12, 2022 15:53:29.81 [18160:18190:1212/155329.080526:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:03:29.181 [18160:18190:1212/160329.180623:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:13:22.03 Opening in existing browser session.
+Dec 12, 2022 16:13:42.626 Opening in existing browser session.
+Dec 12, 2022 16:14:16.890 [25213:25243:1212/161416.890602:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:15:55.791 [25739:25770:1212/161555.791538:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:16:19.467 [25739:25770:1212/161619.466710:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:17:04.189 Opening in existing browser session.
+Dec 12, 2022 16:17:11.940 [25739:25770:1212/161711.940468:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:17:50.20 Opening in existing browser session.
+
+Dec 12, 2022 16:23:18.05 NEW SESSION
+Dec 12, 2022 16:23:18.05 [2475:2513:1212/162317.968727:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.DBus.StartServiceByName: object_path= /org/freedesktop/DBus: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Dec 12, 2022 16:23:32.234 [2475:2509:1212/162332.234175:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:24:01.989 [2475:2509:1212/162401.988800:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:24:02.250 Opening in existing browser session.
+Dec 12, 2022 16:24:47.303 [2475:2509:1212/162447.303504:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:26:31.952 [2475:2509:1212/162631.951967:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:29:53.528 [2475:2509:1212/162953.527796:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:36:26.306 [2475:2509:1212/163626.305768:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:36:57.376 Opening in existing browser session.
+Dec 12, 2022 16:39:39.703 Opening in existing browser session.
+Dec 12, 2022 16:40:00.864 Opening in existing browser session.
+Dec 12, 2022 16:40:16.480 Opening in existing browser session.
+Dec 12, 2022 16:41:07.794 Opening in existing browser session.
+Dec 12, 2022 16:42:35.579 Opening in existing browser session.
+Dec 12, 2022 16:46:26.312 [2475:2509:1212/164626.312272:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:47:15.461 Opening in existing browser session.
+Dec 12, 2022 16:48:05.464 [5354:5385:1212/164805.464544:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:48:29.125 [5354:5385:1212/164829.124973:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:48:53.698 Opening in existing browser session.
+Dec 12, 2022 16:50:02.404 [5859:5889:1212/165002.404044:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:50:23.743 [5859:5889:1212/165023.743129:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:50:35.989 Opening in existing browser session.
+Dec 12, 2022 16:51:04.671 [5859:5889:1212/165104.671052:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:52:55.179 [5859:5889:1212/165255.179372:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 16:56:27.443 [5859:5889:1212/165627.443196:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 17:03:45.31 Opening in existing browser session.
+Dec 12, 2022 17:04:01.830 Opening in existing browser session.
+
+Dec 12, 2022 18:03:08.453 NEW SESSION
+Dec 12, 2022 18:03:08.453 [8728:8759:1212/180308.452616:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 18:03:30.999 [8728:8759:1212/180330.998789:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 18:04:21.154 [8728:8759:1212/180421.154390:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 18:06:09.791 [8728:8759:1212/180609.791007:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 18:08:26.378 Opening in existing browser session.
+Dec 12, 2022 18:08:55.726 [8728:8759:1212/180855.726396:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 18:16:23.743 [8728:8759:1212/181623.743249:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 18:17:22.268 Opening in existing browser session.
+
+Dec 12, 2022 18:26:10.881 NEW SESSION
+Dec 12, 2022 18:26:10.881 [10684:10715:1212/182610.880037:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 12, 2022 18:26:32.965 [10684:10715:1212/182632.965677:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+
+Dec 13, 2022 12:47:15.344 NEW SESSION
+Dec 13, 2022 12:47:15.344 [2472:2509:1213/124715.308001:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.DBus.StartServiceByName: object_path= /org/freedesktop/DBus: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+
+Dec 14, 2022 17:55:03.669 NEW SESSION
+Dec 14, 2022 17:55:03.670 [2939:2976:1214/175503.655056:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.DBus.StartServiceByName: object_path= /org/freedesktop/DBus: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Dec 14, 2022 17:55:16.109 [2939:2972:1214/175516.109485:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 14, 2022 17:55:36.548 [2939:2972:1214/175536.547905:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 14, 2022 17:56:26.374 [2939:2972:1214/175626.373969:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 14, 2022 17:57:34.465 Opening in existing browser session.
+Dec 14, 2022 17:57:53.351 [2939:2972:1214/175753.350835:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 14, 2022 18:01:13.225 Opening in existing browser session.
+Dec 14, 2022 18:01:42.872 [2939:2972:1214/180142.871527:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 14, 2022 18:06:05.952 [4373:4404:1214/180605.952445:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 14, 2022 18:06:30.806 [4373:4404:1214/180630.806688:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 14, 2022 18:07:23.246 [4373:4404:1214/180723.246319:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 14, 2022 18:08:48.741 [4373:4404:1214/180848.741058:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 14, 2022 18:11:36.797 [4373:4404:1214/181136.797430:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 14, 2022 18:17:31.964 [4373:4404:1214/181731.963656:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 14, 2022 18:20:12.436 Opening in existing browser session.
+Dec 14, 2022 18:23:41.826 Opening in existing browser session.
+Dec 14, 2022 18:24:04.885 Opening in existing browser session.
+Dec 14, 2022 18:27:31.980 [4373:4404:1214/182731.980193:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 14, 2022 18:37:32.11 [4373:4404:1214/183732.010609:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+
+Dec 15, 2022 10:42:10.181 NEW SESSION
+Dec 15, 2022 10:42:10.181 [6808:6839:1215/104210.180910:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 10:42:34.956 [6808:6839:1215/104234.956048:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 10:43:21.765 [6808:6839:1215/104321.764740:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 10:44:55.447 [6808:6839:1215/104455.447054:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 10:47:50.334 [6808:6839:1215/104750.334098:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 10:54:41.21 [6808:6839:1215/105441.021193:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 11:04:41.96 [6808:6839:1215/110441.096411:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 11:13:37.355 Opening in existing browser session.
+Dec 15, 2022 11:14:41.103 [6808:6839:1215/111441.102977:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 11:18:54.771 Opening in existing browser session.
+Dec 15, 2022 11:24:41.116 [6808:6839:1215/112441.115356:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 11:28:23.718 Fontconfig error: Cannot load default config file: No such file: (null)
+Dec 15, 2022 11:35:51.995 [11021:11052:1215/113551.995109:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 11:36:37.196 [11353:11384:1215/113637.196757:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 11:36:45.756 Fontconfig error: Cannot load default config file: No such file: (null)
+Dec 15, 2022 11:36:57.461 [11353:11384:1215/113657.461449:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 11:45:42.360 Opening in existing browser session.
+Dec 15, 2022 11:58:01.05 Opening in existing browser session.
+Dec 15, 2022 12:02:22.619 Opening in existing browser session.
+
+Dec 15, 2022 16:12:55.231 NEW SESSION
+Dec 15, 2022 16:12:55.231 [2620:2657:1215/161255.150571:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.DBus.StartServiceByName: object_path= /org/freedesktop/DBus: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Dec 15, 2022 16:13:10.725 [2620:2652:1215/161310.725451:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 16:13:37.506 [2620:2620:1215/161337.506440:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Dec 15, 2022 16:13:37.830 [2620:2620:1215/161337.829508:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Dec 15, 2022 16:13:37.877 [2620:2620:1215/161337.877264:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Dec 15, 2022 16:13:40.447 [2620:2652:1215/161340.446691:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 16:14:36.697 [2620:2652:1215/161436.696944:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 16:16:28.855 [2620:2652:1215/161628.854965:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 16:20:13.237 [2620:2652:1215/162013.237277:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+
+Dec 15, 2022 21:14:54.412 NEW SESSION
+Dec 15, 2022 21:14:54.412 Opening in existing browser session.
+Dec 15, 2022 21:16:06.329 Opening in existing browser session.
+Dec 15, 2022 21:16:20.119 Opening in existing browser session.
+Dec 15, 2022 21:18:23.912 Opening in existing browser session.
+Dec 15, 2022 21:19:03.306 Opening in existing browser session.
+Dec 15, 2022 21:43:53.202 [12793:12823:1215/214353.202093:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 21:44:22.692 [12793:12823:1215/214422.692322:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 21:56:30.416 [14647:14678:1215/215630.416483:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+
+Dec 15, 2022 22:09:17.391 NEW SESSION
+Dec 15, 2022 22:09:17.391 [15432:15464:1215/220917.390090:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 22:10:12.276 [15711:15742:1215/221012.276376:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 22:10:36.718 [15711:15742:1215/221036.717683:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 22:11:16.743 Opening in existing browser session.
+Dec 15, 2022 22:11:26.656 [15711:15742:1215/221126.656415:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 22:13:09.364 [15711:15742:1215/221309.363533:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 15, 2022 22:16:14.119 [15711:15742:1215/221614.118958:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+
+Dec 16, 2022 09:26:06.787 NEW SESSION
+Dec 16, 2022 09:26:06.787 [2802:2839:1216/092606.709168:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.DBus.StartServiceByName: object_path= /org/freedesktop/DBus: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Dec 16, 2022 09:26:19.117 [2802:2835:1216/092619.117039:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 09:31:34.984 [3254:3285:1216/093134.984126:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 09:31:55.285 [3254:3285:1216/093155.285521:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 09:32:40.943 [3254:3285:1216/093240.943565:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 09:34:36.253 [3254:3285:1216/093436.253111:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 09:37:34.666 [3254:3285:1216/093734.666315:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 09:43:17.455 [3254:3285:1216/094317.454808:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 09:53:17.540 [3254:3285:1216/095317.539522:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 09:57:38.916 [3254:3285:1216/095738.916500:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -105
+Dec 16, 2022 10:00:57.185 Opening in existing browser session.
+Dec 16, 2022 10:03:02.699 Opening in existing browser session.
+Dec 16, 2022 10:04:08.295 [3254:3285:1216/100408.294422:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 10:04:28.906 [3254:3285:1216/100428.905999:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+
+Dec 16, 2022 11:27:53.458 NEW SESSION
+Dec 16, 2022 11:27:53.458 [6991:7022:1216/112753.457138:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 11:28:22.636 [6991:7022:1216/112822.636407:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 11:29:14.702 [6991:7022:1216/112914.702071:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 11:30:51.848 [6991:7022:1216/113051.847793:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 11:34:23.662 [6991:7022:1216/113423.661995:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 11:37:21.384 Opening in existing browser session.
+Dec 16, 2022 11:40:58.668 [6991:7022:1216/114058.668229:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 11:45:16.866 Opening in existing browser session.
+Dec 16, 2022 11:45:59.588 Opening in existing browser session.
+Dec 16, 2022 11:46:50.878 Opening in existing browser session.
+Dec 16, 2022 11:50:58.677 [6991:7022:1216/115058.676669:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 11:53:28.925 Opening in existing browser session.
+Dec 16, 2022 11:59:26.848 Error in cpuinfo: failed to parse processor information from /proc/cpuinfo
+Dec 16, 2022 12:00:23.951 Error in cpuinfo: failed to parse processor information from /proc/cpuinfo
+Dec 16, 2022 12:00:35.221 Error in cpuinfo: failed to parse processor information from /proc/cpuinfo
+Dec 16, 2022 12:00:46.804 Error in cpuinfo: failed to parse processor information from /proc/cpuinfo
+Dec 16, 2022 12:02:56.247 [9259:9289:1216/120256.247354:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 12:03:01.123 [9259:9289:1216/120301.123774:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 12:03:17.438 Opening in existing browser session.
+Dec 16, 2022 12:03:50.765 [9259:9289:1216/120350.764686:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+
+Dec 16, 2022 12:08:37.108 NEW SESSION
+Dec 16, 2022 12:08:37.108 Opening in existing browser session.
+Dec 16, 2022 12:19:38.435 Opening in existing browser session.
+
+Dec 16, 2022 15:57:39.976 NEW SESSION
+Dec 16, 2022 15:57:39.976 Opening in existing browser session.
+Dec 16, 2022 15:59:37.278 Opening in existing browser session.
+Dec 16, 2022 16:00:34.31 Opening in existing browser session.
+Dec 16, 2022 16:41:33.477 [19354:19385:1216/164133.477514:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 16:43:02.147 [19708:19739:1216/164302.147319:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 16:43:24.518 Opening in existing browser session.
+Dec 16, 2022 16:43:31.513 [19708:19739:1216/164331.512723:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 16:44:22.278 [19708:19739:1216/164422.278183:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 16:44:55.396 Opening in existing browser session.
+Dec 16, 2022 16:45:55.923 [19708:19739:1216/164555.922616:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 16, 2022 16:49:05.198 [19708:19739:1216/164905.197536:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+
+Dec 17, 2022 14:38:06.645 NEW SESSION
+Dec 17, 2022 14:38:06.645 [7102:7133:1217/143806.615012:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 17, 2022 14:38:27.201 [7102:7133:1217/143827.201626:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 17, 2022 14:39:11.491 [7102:7133:1217/143911.491375:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 17, 2022 14:41:05.627 [7102:7133:1217/144105.627354:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 17, 2022 14:44:41.196 [7102:7133:1217/144441.196429:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 17, 2022 14:51:06.212 [7102:7133:1217/145106.211706:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 17, 2022 14:53:18.366 Fontconfig error: Cannot load default config file: No such file: (null)
+Dec 17, 2022 14:53:37.130 [7102:7133:1217/145337.130409:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -105
+Dec 17, 2022 14:53:50.236 Error in cpuinfo: failed to parse processor information from /proc/cpuinfo
+Dec 17, 2022 14:54:09.857 Error in cpuinfo: failed to parse processor information from /proc/cpuinfo
+Dec 17, 2022 14:54:49.584 Error in cpuinfo: failed to parse processor information from /proc/cpuinfo
+Dec 17, 2022 14:55:26.113 Error in cpuinfo: failed to parse processor information from /proc/cpuinfo
+Dec 17, 2022 14:55:41.212 [7102:7133:1217/145541.212494:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 17, 2022 14:55:49.73 Fontconfig error: Cannot load default config file: No such file: (null)
+Dec 17, 2022 14:56:55.514 Opening in existing browser session.
+Dec 17, 2022 14:57:25.696 Opening in existing browser session.
+Dec 17, 2022 14:57:52.809 Opening in existing browser session.
+Dec 17, 2022 15:01:06.228 [7102:7133:1217/150106.227806:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 17, 2022 15:01:47.796 [7102:7133:1217/150147.796062:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 17, 2022 15:03:28.450 [7102:7133:1217/150328.450215:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 17, 2022 15:07:18.610 [7102:7133:1217/150718.610050:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 17, 2022 15:13:17.618 [7102:7133:1217/151317.617924:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+
+Dec 17, 2022 16:49:38.94 NEW SESSION
+Dec 17, 2022 16:49:38.94 [2554:2593:1217/164938.071619:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.DBus.StartServiceByName: object_path= /org/freedesktop/DBus: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Dec 17, 2022 16:49:52.233 [2554:2589:1217/164952.233156:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 17, 2022 16:50:13.953 [2554:2589:1217/165013.952554:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+Dec 17, 2022 16:50:20.390 [2554:2554:1217/165020.390492:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Dec 17, 2022 16:50:20.494 [2554:2554:1217/165020.494127:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Dec 17, 2022 16:50:21.350 [2554:2554:1217/165021.350351:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Dec 17, 2022 16:50:55.681 [2554:2589:1217/165055.681569:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
+
+Feb 18, 2023 14:22:15.929 NEW SESSION
+Feb 18, 2023 14:22:15.929 Opening in existing browser session.
+Feb 18, 2023 14:28:31.924 Opening in existing browser session.
+Feb 18, 2023 16:14:23.861 Opening in existing browser session.

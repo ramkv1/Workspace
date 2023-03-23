@@ -1,0 +1,18 @@
+package com.rk.main;
+
+public static abstract class Shape{
+	private int surface;
+	
+	public Shape() {
+		this.surface=surface;
+	}
+	protected abstract int computerSurface();
+		public int getsurface() {
+			return surface;
+		}
+	}
+
+public static class SquareShape extends Shape{
+	private final int size;
+	
+}

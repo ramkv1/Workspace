@@ -1,0 +1,5 @@
+package com.rk.Service;
+
+public interface IEmployeeMgmtService {
+
+}

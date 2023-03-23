@@ -1,0 +1,7 @@
+2022-11-26 16:42:36 DEBUG com.rk.jdbc.SelectTest1       main main       0 27 com.rk.jdbc.SelectTest:: JDBC driver driver class loader
+2022-11-26 16:42:37 INFO com.rk.jdbc.SelectTest1       main main       966 31 com.rk.jdbc.SelectTest:: Connection is established between DB s/w
+2022-11-26 16:42:37 DEBUG com.rk.jdbc.SelectTest1       main main       974 35 com.rk.jdbc.SelectTest:: JDBC Statement Object is created
+2022-11-26 16:42:37 DEBUG com.rk.jdbc.SelectTest1       main main       1007 40 com.rk.jdbc.SelectTest:: SQL query is send to DB s/w for execution and ResultSet obj is generated
+2022-11-26 16:42:37 WARN com.rk.jdbc.SelectTest1       main main       1008 47 com.rk.jdbc.SelectTest:: The ResultSet obj are retrived using getString(-)for all cols ..change them accordingly
+2022-11-26 16:42:37 WARN com.rk.jdbc.SelectTest1       main main       1008 47 com.rk.jdbc.SelectTest:: The ResultSet obj are retrived using getString(-)for all cols ..change them accordingly
+2022-11-26 16:42:37 DEBUG com.rk.jdbc.SelectTest1       main main       1008 49 com.rk.jdbc.SelectTest:: Resultset obj is processed

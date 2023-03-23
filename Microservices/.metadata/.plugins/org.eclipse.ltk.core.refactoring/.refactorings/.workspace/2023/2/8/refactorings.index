@@ -1,0 +1,7 @@
+1676782458791	Rename resource 'BootMs-proj14-BillingServiceMS-ProviderMS'
+1676782624504	Rename resource 'BootMs-proj14-EurekaServer'
+1676782641063	Rename resource 'BootMs-proj14-ShoppingServiceMS-ConsumerMS-FeignClient'
+1677123140310	Delete resource 'BootMs-proj14-EurekaServer-Zuul-ApiGateway'
+1677123895076	Delete resource 'BootMs-proj15-EurekaServer-Zuul-API-Gateway'
+1677233523860	Rename resource 'BootMs-proj15-BillingServiceMS-Zuul1'
+1677233927067	Rename resource 'BootMs-proj16-NetflixZuulServer-ZullFilters'

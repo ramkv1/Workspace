@@ -1,0 +1,13 @@
+package com.rk.entity;
+
+import java.time.LocalDate;
+
+import net.bytebuddy.asm.Advice.Local;
+
+public class Offers {
+	private Integer ofid;
+	private String offername;
+	private double DiscountPer;
+	private LocalDate validto;
+	
+}

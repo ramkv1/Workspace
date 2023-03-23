@@ -1,0 +1,10 @@
+
+
+<html xmlns:th="https://thymeleaf.org">
+
+<h1 style="color: purple;text-align: left"> Loan Approval Page</h1>
+	<b>You are Approved for loan Amount::<span th:text="${loan_amount}"/></b><br>
+	
+	<a th:href="@{/bank/}">HOME</a>
+	<br>
+	<a th:href="@{/signout}">LOGOUT</a>

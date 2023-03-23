@@ -1,0 +1,200 @@
+2023-03-06T13:40:56.607+05:30  INFO 34531 --- [main] ectIplPlayerServiceConsumerMsApplication : Starting BootMsProj17MiniProjectIplPlayerServiceConsumerMsApplication using Java 17.0.2 with PID 34531 (/home/vvkvrk/Desktop/Workspace/Microservices/BootMs-proj17-MiniProject-IPLPlayerService-ConsumerMs/target/classes started by vvkvrk in /home/vvkvrk/Desktop/Workspace/Microservices/BootMs-proj17-MiniProject-IPLPlayerService-ConsumerMs)
+2023-03-06T13:40:56.610+05:30  INFO 34531 --- [main] ectIplPlayerServiceConsumerMsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-03-06T13:40:56.658+05:30  INFO 34531 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-03-06T13:40:56.658+05:30  INFO 34531 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=PLAYER-SERVICE, profiles=[default], label=null, version=527198656f4d4ac1d0cd0de69e566f38628cfb85, state=null
+2023-03-06T13:40:57.597+05:30  INFO 34531 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-06T13:40:57.708+05:30  INFO 34531 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103 ms. Found 2 JPA repository interfaces.
+2023-03-06T13:40:57.934+05:30  INFO 34531 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cdceed8b-0f6c-3367-9c04-07859d6d77f0
+2023-03-06T13:40:58.032+05:30  INFO 34531 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.rk.client.ITeamServiceCosumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-06T13:40:58.269+05:30  INFO 34531 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8800 (http)
+2023-03-06T13:40:58.277+05:30  INFO 34531 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-06T13:40:58.277+05:30  INFO 34531 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-06T13:40:58.351+05:30  INFO 34531 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-06T13:40:58.351+05:30  INFO 34531 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1691 ms
+2023-03-06T13:40:58.657+05:30  INFO 34531 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-06T13:40:58.723+05:30  INFO 34531 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-06T13:40:58.887+05:30  WARN 34531 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-06T13:40:58.988+05:30  INFO 34531 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-06T13:40:59.281+05:30  INFO 34531 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@753e4eb5
+2023-03-06T13:40:59.284+05:30  INFO 34531 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-06T13:40:59.300+05:30  INFO 34531 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-06T13:40:59.300+05:30  WARN 34531 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-06T13:41:00.106+05:30  INFO 34531 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-06T13:41:00.112+05:30  INFO 34531 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-06T13:41:00.420+05:30  WARN 34531 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-06T13:41:00.459+05:30  INFO 34531 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'TEAM-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2023-03-06T13:41:01.457+05:30  INFO 34531 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-03-06T13:41:01.482+05:30  WARN 34531 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-06T13:41:01.493+05:30  INFO 34531 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2023-03-06T13:41:01.557+05:30  INFO 34531 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-03-06T13:41:01.647+05:30  INFO 34531 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-03-06T13:41:01.657+05:30  INFO 34531 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-06T13:41:01.695+05:30  INFO 34531 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-03-06T13:41:01.695+05:30  INFO 34531 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-03-06T13:41:01.695+05:30  INFO 34531 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-03-06T13:41:01.696+05:30  INFO 34531 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-03-06T13:41:01.696+05:30  INFO 34531 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-03-06T13:41:01.696+05:30  INFO 34531 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-03-06T13:41:01.696+05:30  INFO 34531 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-03-06T13:41:01.789+05:30  INFO 34531 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-03-06T13:41:01.794+05:30  INFO 34531 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-03-06T13:41:01.800+05:30  INFO 34531 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-06T13:41:01.811+05:30  INFO 34531 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1678090261811 with initial instances count: 1
+2023-03-06T13:41:01.814+05:30  INFO 34531 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PLAYER-SERVICE with eureka with status UP
+2023-03-06T13:41:01.814+05:30  INFO 34531 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1678090261814, current=UP, previous=STARTING]
+2023-03-06T13:41:01.816+05:30  INFO 34531 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:e506f2535d15b9bae74a463aacb2859a: registering service...
+2023-03-06T13:41:01.832+05:30  INFO 34531 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8800 (http) with context path ''
+2023-03-06T13:41:01.833+05:30  INFO 34531 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8800
+2023-03-06T13:41:01.853+05:30  INFO 34531 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:e506f2535d15b9bae74a463aacb2859a - registration status: 204
+2023-03-06T13:41:01.936+05:30  INFO 34531 --- [main] ectIplPlayerServiceConsumerMsApplication : Started BootMsProj17MiniProjectIplPlayerServiceConsumerMsApplication in 8.042 seconds (process running for 8.417)
+2023-03-06T13:41:01.970+05:30  WARN 34531 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=PLAYER-SERVICE, managementUrl=http://vvkvrk:8800/actuator, healthUrl=http://vvkvrk:8800/actuator/health, serviceUrl=http://vvkvrk:8800/) at spring-boot-admin ([http://localhost:9999//instances]): 404 : "{"timestamp":"2023-03-06T08:11:01.962+00:00","status":404,"error":"Not Found","path":"/instances"}". Further attempts are logged on DEBUG level
+2023-03-06T13:43:45.260+05:30  INFO 34531 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PLAYER-SERVICE with eureka with status DOWN
+2023-03-06T13:43:45.261+05:30  INFO 34531 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1678090425261, current=DOWN, previous=UP]
+2023-03-06T13:43:45.261+05:30  INFO 34531 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:e506f2535d15b9bae74a463aacb2859a: registering service...
+2023-03-06T13:43:45.269+05:30  INFO 34531 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:e506f2535d15b9bae74a463aacb2859a - registration status: 204
+2023-03-06T13:43:45.282+05:30  WARN 34531 --- [SpringApplicationShutdownHook] s.c.a.AnnotationConfigApplicationContext : Exception thrown from ApplicationListener handling ContextClosedEvent
+
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'registrationListener': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:370) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:335) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:228) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:165) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:419) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1034) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1001) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:113) ~[spring-cloud-context-4.0.1.jar:4.0.1]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1177) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1170) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1082) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1051) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1001) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:139) ~[spring-boot-3.0.2.jar:3.0.2]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108) ~[spring-boot-3.0.2.jar:3.0.2]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-03-06T13:43:45.287+05:30  INFO 34531 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-06T13:43:45.290+05:30  INFO 34531 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-06T13:43:45.299+05:30  INFO 34531 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-06T13:43:45.300+05:30  INFO 34531 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-03-06T13:43:48.323+05:30  INFO 34531 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-03-06T13:43:48.342+05:30  INFO 34531 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:e506f2535d15b9bae74a463aacb2859a - deregister  status: 200
+2023-03-06T13:43:48.358+05:30  INFO 34531 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-03-06T13:46:43.411+05:30  INFO 35082 --- [main] ectIplPlayerServiceConsumerMsApplication : Starting BootMsProj17MiniProjectIplPlayerServiceConsumerMsApplication using Java 17.0.2 with PID 35082 (/home/vvkvrk/Desktop/Workspace/Microservices/BootMs-proj17-MiniProject-IPLPlayerService-ConsumerMs/target/classes started by vvkvrk in /home/vvkvrk/Desktop/Workspace/Microservices/BootMs-proj17-MiniProject-IPLPlayerService-ConsumerMs)
+2023-03-06T13:46:43.413+05:30  INFO 35082 --- [main] ectIplPlayerServiceConsumerMsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-03-06T13:46:43.471+05:30  INFO 35082 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-03-06T13:46:43.471+05:30  INFO 35082 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=PLAYER-SERVICE, profiles=[default], label=null, version=527198656f4d4ac1d0cd0de69e566f38628cfb85, state=null
+2023-03-06T13:46:44.877+05:30  INFO 35082 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-06T13:46:45.033+05:30  INFO 35082 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 144 ms. Found 2 JPA repository interfaces.
+2023-03-06T13:46:45.488+05:30  INFO 35082 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cdceed8b-0f6c-3367-9c04-07859d6d77f0
+2023-03-06T13:46:45.608+05:30  INFO 35082 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.rk.client.ITeamServiceCosumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-06T13:46:45.912+05:30  INFO 35082 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8800 (http)
+2023-03-06T13:46:45.922+05:30  INFO 35082 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-06T13:46:45.922+05:30  INFO 35082 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-06T13:46:46.039+05:30  INFO 35082 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-06T13:46:46.040+05:30  INFO 35082 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2566 ms
+2023-03-06T13:46:46.436+05:30  INFO 35082 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-06T13:46:46.488+05:30  INFO 35082 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-06T13:46:46.681+05:30  WARN 35082 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-06T13:46:46.846+05:30  INFO 35082 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-06T13:46:47.402+05:30  INFO 35082 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@753e4eb5
+2023-03-06T13:46:47.405+05:30  INFO 35082 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-06T13:46:47.431+05:30  INFO 35082 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-06T13:46:47.432+05:30  WARN 35082 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-06T13:46:48.892+05:30  INFO 35082 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-06T13:46:48.907+05:30  INFO 35082 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-06T13:46:49.326+05:30  WARN 35082 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-06T13:46:49.393+05:30  INFO 35082 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'TEAM-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2023-03-06T13:46:50.779+05:30  INFO 35082 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-03-06T13:46:50.811+05:30  WARN 35082 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-06T13:46:50.825+05:30  INFO 35082 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2023-03-06T13:46:50.910+05:30  INFO 35082 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-03-06T13:46:51.021+05:30  INFO 35082 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-03-06T13:46:51.026+05:30  INFO 35082 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-06T13:46:51.063+05:30  INFO 35082 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-03-06T13:46:51.063+05:30  INFO 35082 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-03-06T13:46:51.063+05:30  INFO 35082 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-03-06T13:46:51.063+05:30  INFO 35082 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-03-06T13:46:51.063+05:30  INFO 35082 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-03-06T13:46:51.063+05:30  INFO 35082 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-03-06T13:46:51.063+05:30  INFO 35082 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-03-06T13:46:51.174+05:30  INFO 35082 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-03-06T13:46:51.180+05:30  INFO 35082 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-03-06T13:46:51.188+05:30  INFO 35082 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-06T13:46:51.205+05:30  INFO 35082 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1678090611204 with initial instances count: 0
+2023-03-06T13:46:51.208+05:30  INFO 35082 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PLAYER-SERVICE with eureka with status UP
+2023-03-06T13:46:51.209+05:30  INFO 35082 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1678090611209, current=UP, previous=STARTING]
+2023-03-06T13:46:51.210+05:30  INFO 35082 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:303320f94854cd0cf93c509b0e62da78: registering service...
+2023-03-06T13:46:51.227+05:30  INFO 35082 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8800 (http) with context path ''
+2023-03-06T13:46:51.228+05:30  INFO 35082 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8800
+2023-03-06T13:46:51.254+05:30  INFO 35082 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:303320f94854cd0cf93c509b0e62da78 - registration status: 204
+2023-03-06T13:46:51.323+05:30  INFO 35082 --- [main] ectIplPlayerServiceConsumerMsApplication : Started BootMsProj17MiniProjectIplPlayerServiceConsumerMsApplication in 19.615 seconds (process running for 20.015)
+2023-03-06T13:46:51.356+05:30  WARN 35082 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=PLAYER-SERVICE, managementUrl=http://vvkvrk:8800/actuator, healthUrl=http://vvkvrk:8800/actuator/health, serviceUrl=http://vvkvrk:8800/) at spring-boot-admin ([http://localhost:9999//instances]): 404 : "{"timestamp":"2023-03-06T08:16:51.348+00:00","status":404,"error":"Not Found","path":"/instances"}". Further attempts are logged on DEBUG level
+2023-03-06T13:47:21.181+05:30  INFO 35082 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-03-06T13:47:21.182+05:30  INFO 35082 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-03-06T13:47:21.182+05:30  INFO 35082 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-03-06T13:47:21.182+05:30  INFO 35082 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-03-06T13:47:21.182+05:30  INFO 35082 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-03-06T13:47:21.183+05:30  INFO 35082 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-03-06T13:47:21.183+05:30  INFO 35082 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-03-06T13:47:21.205+05:30  INFO 35082 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-03-06T13:47:56.568+05:30  INFO 35082 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PLAYER-SERVICE with eureka with status DOWN
+2023-03-06T13:47:56.568+05:30  INFO 35082 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1678090676568, current=DOWN, previous=UP]
+2023-03-06T13:47:56.569+05:30  INFO 35082 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:303320f94854cd0cf93c509b0e62da78: registering service...
+2023-03-06T13:47:56.578+05:30  INFO 35082 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:303320f94854cd0cf93c509b0e62da78 - registration status: 204
+2023-03-06T13:47:56.589+05:30  WARN 35082 --- [SpringApplicationShutdownHook] s.c.a.AnnotationConfigApplicationContext : Exception thrown from ApplicationListener handling ContextClosedEvent
+
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'registrationListener': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:370) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:335) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:228) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:165) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:419) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1034) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1001) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:113) ~[spring-cloud-context-4.0.1.jar:4.0.1]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1177) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1170) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1082) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1051) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1001) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:139) ~[spring-boot-3.0.2.jar:3.0.2]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108) ~[spring-boot-3.0.2.jar:3.0.2]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-03-06T13:47:56.593+05:30  INFO 35082 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-06T13:47:56.595+05:30  INFO 35082 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-06T13:47:56.602+05:30  INFO 35082 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-06T13:47:56.602+05:30  INFO 35082 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-03-06T13:47:59.608+05:30  INFO 35082 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-03-06T13:47:59.616+05:30  INFO 35082 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PLAYER-SERVICE/PLAYER-SERVICE:303320f94854cd0cf93c509b0e62da78 - deregister  status: 200
+2023-03-06T13:47:59.624+05:30  INFO 35082 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
